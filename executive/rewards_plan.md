@@ -29,7 +29,12 @@ What all the other token proposals have overlooked is that the actual rewards fo
     
     100 Super Representative Candidates
     27  Block Producing Super Representatives per day
-    32 TRX per block / 2.7 million TRX per day / 1 Billion TRX per year
+    1 Block per second
+    2.2 Blocks per minute per Super Representative
+    32 TRX per block 
+    2.7 million TRX per day
+    1 Billion TRX per year
+    100,000 TRX per Super Representative per day 
     65 Billion TRX circulation
     $40,000 monthly cost of running a node
 
