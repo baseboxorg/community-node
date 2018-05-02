@@ -1,11 +1,10 @@
 #TRON Community Node  Support Plan
 
+`Testable nodes for community members`
 
-> Testable nodes for community members  
+See Technical Plan
 
-Pending
-
-> A certain amount of social media influence:  
+`A certain amount of social media influence:`
 
 ### TRON Groupsource Node Token (TGNT) Community  
 #### • Telegram  

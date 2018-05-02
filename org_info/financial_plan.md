@@ -19,3 +19,10 @@ The commencement of TGNT will signal the end of my individual ownership where al
 If 27 Super Representatives  each kept 2% of approximately $40,000,000 per year in daily rewards,it would not even meet the cost of running the server. Now consider that only a few of the SRs will be voted in every day of the year, but that all of the candidates must maintain a server 365. Clearly, this is not a get-rich-quick proposal. Then again, TRX was .30¢ for a fleeting moment and if it could sustain those levels it would change the financial viability of this proposal.
 
 The ill fated endeavor Bitconnect offers some warnings about potential pitfalls. First and foremost, this is not an investment opportunity. TRX is the real investment. TGNT is a management opportunity. Secondly, the TGNT needs to preserve the value of our assets and guarantee that we possess one TRX for every TGNT sold to the public.
+
+
+
+
+Voter participation rate will not be 100% among the 65 Billion TRX coin holders. Even for the TRON fanatics, voting every day will become tedious. It might be easier, and more lucrative, for some TRX holders to delegate their votes to an organization who will diligently claim rewards for them by voting daily.
+
+The purpose of TGNT is two fold. First, it accrues TRX coins and subsequently locks in those votes for Super Representative, sparing those TRX owners the need to vote for Super Representative every day. It also gives TRX coin holders a chance to participate in the management of the TRON network. Ownership of TGNT will provide an opportunity for TRX holders to have direct representation with TRON proper. TGNT holders will vote on the issues put forth to their TRON Super Representative, making the process truly democratic.
