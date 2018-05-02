@@ -42,7 +42,7 @@ This gives us a range of 9-35 Billion votes split among the remaining competitio
 
 Remember my original calculation of 1.5% was based on splitting the 1 Billion rewards evenly over the 65 Billion TRX and 27 SRs, working out to 2.4 Billion rewardable votes per SR. Based on my test case, if the actual number of votes for the last winning SR is 240 million, then the payout would be 10 times 1.5% = 15% annual (gross before expenses). 
 
-The biggest unknown in all of this is how many TRX votes the whales have locked up for themselves. If it's only 15 Billion among 22 whales, then there would be 50 Billion votes to be split between 78 remaining candidates, or about 50% more votes per candidate than with my original assumption. If they have 44 Billion votes between 20 of them, then the rest would be splitting 16 Billion votes between 80 candidates, or half as many votes per candidate than with my original assumption.
+The biggest unknown in all of this is how many TRX votes the whales have locked up for themselves. If it's only 15 Billion among 22 whales, then there would be 50 Billion votes to be split between 78 remaining candidates, or about 50% more votes per candidate than with my original assumption. If the whales have 44 Billion votes between 20 of them, then the rest would be splitting 16 Billion votes between 80 candidates, or half as many votes per candidate than with my original assumption.
 
 
 
@@ -53,6 +53,6 @@ I expect there will be a strategy among TRX voters to try and vote for the last 
 
 
 
-As expenses are met, rewards will increase until the commencement of Stage II: The server's technical migration to 16, 32, and finally 64 Core server that meets Tron's recommended configuration to put my node on a level with the top of the heap, at which point expenses will plateau and rewards become consistent.
+As expenses are met, rewards will increase until the server's technical migration to a 64 Core server that meets Tron's recommended configuration to put my node on a level with the top of the heap, at which point expenses will plateau and rewards become consistent.
 
 
