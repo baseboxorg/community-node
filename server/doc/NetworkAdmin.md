@@ -1,5 +1,7 @@
 With so little documentation during the development stages, there is a lot of confusion regarding the exact way that the Tron main net will operate. I have been running a Witness node for a few weeks and recently built a private test net, and I'm beginning to understand how it all works.
 
+For the benefit of my fellow Super Representative candidates who are still mapping out a hardware migration, I'm sharing this. It goes with this projects Open Source ethos, and only goes to make the entire network stronger. 
+
 First, some definitions. 
 
 A *node* is a server that shares information on the p2p blockchain
