@@ -8,7 +8,7 @@ A *witness node* is a server configured with a private key, which is available t
 A *super representative* is a witness node that has been elected to produce blocks  
 A *solidity node* is a node that runs a wallet server  
 
-There will be 100 witness node candidates. Those are witness nodes who have been voted upon by the community to run in the Super Representative election. Of them, 27 will be elected, every day, to be Super Representatives (SR's). There may be more than 100 witness nodes running, that's their prerogative in hopes they might get elected and move on to the SR election.
+100 of the witness nodes will be chosen by election to be Super Representative candidates and run in the Super Representative election. Of them, 27 will be elected, every day, to be Super Representatives (SR's). There may be more than 100 witness nodes running, that's their prerogative in hopes they might get elected and move on to become SR candidates. I presume that when a witness node wins the first election, they will be on the ballot during the SR election the next day.
 
 This establishes a level of trust for the candidates, and a higher level of trust for the elected SR's.
 
