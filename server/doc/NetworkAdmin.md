@@ -12,16 +12,15 @@ A *solidity node* is a node that runs a wallet server
 
 This establishes a level of trust for the candidates, and a higher level of trust for the elected SR's.
 
-Every second, one witness node will produce one block. Then the next node will produce one block, and so on for 27 seconds until the cycle repeats itself. Whenever a SR produces a block, the other SR's validate the block, and then it gets shared on the blockchain, with all of the full nodes (seed nodes) who increase the availability of the information, possibly serving as links for passing the newly created blockchain among the Super Representatives. 
+Every second, one witness node will produce one block. Then the next node will produce one block, and so on for 27 seconds until the cycle repeats itself. Whenever a SR produces a block, the other SR's validate the block, and then it gets shared on the blockchain, with all of the full nodes (seed nodes) who increase the availability of the information, possibly serving as links for passing the newly created block among the Super Representatives. 
 
 When each SR starts up, it will not be like it is in test net. Right now, all of the seed nodes are already running. In main net, each SR will add their seeds to the config file. When running the private testnet, I find it better if the seeds are running before starting up the primary witness node.  (the primary witness node is the first node to start up on day 1 of the blockchain. It creates a hash for the Zero block and then every node that starts up uses the same genesis criteria and checks their Zero block against the primary witness)
 
-When main net is running I think a typical SR topography might look like this:
-
-1 supercomputer configured as a witness node (alpha node)
-Several failover servers configured exactly the same as the witness node. They will run in parallel and produce the same hash that the alpha node.
-Lots of seed nodes designated by the witness node replicate the block produced to increase its availability
-1 Config file is common among all of the witness nodes, to which each one adds their seed nodes.
+2. When main net is running I think a typical SR topography might look like this:  
+1 supercomputer configured as a witness node (alpha node)  
+Several failover servers configured exactly the same as the witness node. They will run in parallel and produce the same hash that the alpha node.  
+Lots of seed nodes designated by the witness node replicate the block produced to increase its availability  
+1 Config file is common among all of the witness nodes, to which each one adds their seed nodes.  
 
 
 https://github.com/bondibox/community-node/blob/master/server/doc/NetworkAdmin.md
