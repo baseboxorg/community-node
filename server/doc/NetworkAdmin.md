@@ -4,10 +4,10 @@ For the benefit of my fellow Super Representative candidates who are still mappi
 
 First, some definitions. 
 
-A *node* is a server that shares information on the p2p blockchain
+```A *node* is a server that shares information on the p2p blockchain
 A *witness node* is a server configured with a private key, which is available to produce blocks
 A *super representative* is a witness node that has been elected to produce blocks
-A *solidity node* is a node that runs a wallet server
+A *solidity node* is a node that runs a wallet server```
 
 There will be 100 witness node candidates. Those are witness nodes who have been voted upon by the community to run in the Super Representative election. Of them, 27 will be elected, every day, to be Super Representatives (SR's). There may be more than 100 witness nodes running, that's their prerogative in hopes they might get elected and move on to the SR election.
 
