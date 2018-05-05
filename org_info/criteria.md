@@ -20,7 +20,7 @@ Washington DC
 `Location of Server (start):`   
 Linode Atlanta Data Center  
 
-`Server type;`
+`Server type;`  
 Cloud Based VM  
 
 
@@ -36,7 +36,7 @@ June 22 - June 26 mock production configuration $320 / month
 `Hardware Expansion Plan after June 26, 2018`
 
 June 27 - June 30 production level I $1920 / month + $1000 per day data transfer  
-July 1 - July 31 production level II $50,000 / month 
+July 1 - July 31 production level II $50,000 / month  
 August 1 - December 31 production level III Estimate pending  
 
 
@@ -89,8 +89,9 @@ Applications
 
 
 
-`Have nodes that can be tested by community members`
-We have created a staging network, staging.communitynode.org which is a replica of the Tron main net and will allow the community to practice with wallets and to test the behavior of newly created dapps. It is already working in alpha with 1 witness and 2 seed nodes.  
+`Have nodes that can be tested by community members`  
+  
+We have created a staging network which is a replica of the Tron main net and will allow the community to practice with wallets and to test the behavior of newly created dapps. It is already working in alpha with 1 witness and 2 seed nodes.  
 
 
 
@@ -112,7 +113,7 @@ Holding a contest for the best  main net java dapp
 
 
 
-DETAILED HARDWARE CONFIGURATIONS  
+`DETAILED HARDWARE CONFIGURATIONS`  
 
 
 # ALPHA TEST CONFIGURATION  
