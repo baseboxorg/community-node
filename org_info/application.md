@@ -48,7 +48,7 @@ August 1 - December 31 production level III Estimate pending
 `Community Support Plan for 2018`  
 We are active in the r/Tronix subgroup where we have become a go-to authority on the main net.   
 
-We have entered into a strategic partnership with the Sesame Seeds SR Group to provide community support on a broader level than either of us is able to provide on our own. Together we will be operating a Telegram help group to answer questions related to use of the Tron main net. We will also be pooling our collective knowledge and establishing best practices for the rest of the SR community, and we will publish that information in a fork of the Official Tron documentation.
+We have entered into a strategic partnership with the Sesame Seeds SR Group to provide community support on a broader level than either of us is able to provide on our own. Together we are operating a Telegram help group to answer questions related to use of the Tron main net. We will also be pooling our collective knowledge and establishing best practices for the rest of the SR community, and we will publish that information in a fork of the Official Tron documentation.
 
 We have contributed to the Tron Wiki and have merged one change already.  
 
@@ -76,26 +76,19 @@ Applications
 • WAN Strategist  
 > Greg is a SysAdmin for a Fortune 500 company. He is responsible for a network of 
 
+• Social Media Strategist  
+> Michael is the founder & chief strategist of xxxxxxx, a SEO, PPP & Remarketing specialty outfit. In his spare time he likes to run an Antminer that drives his family nuts.  
 
-• Social Media  
-> XXXXXXX is a prolific blogger who has 2,000 twitter followers.    
-
-
-• Community Outreach    
-> XXXXXXXX is a community organizer who has managed several grassroots campaigns.    
+• Application Education    
+>  XXXXXXXX has written several Java applications  
 
 
-• Software Development    
->  XXXXXXXX has written several applications for iOS and Android and currently teaches Java at ___________.  
 
-The following vendors have agreed to work with Community Node as strategic partners in this project:
+The following vendors have agreed to work with Community Node:
 
 • Devops Expansion Engineer  
 > John is a Docker & Kubernetes specialist located in Great Britain. (paste bio)  
 
-
-• Marketing Strategist  
-> Michael is the founder & chief strategist of xxxxxxx, a SEO, PPP & Remarketing specialty outfit. In his spare time he likes to run an Antminer that drives his family nuts.  
 
 
 
@@ -228,7 +221,7 @@ TBD
 
 
 
-\* 10,240 Prize will be drawn from this nodes first day of block rewards
+\* 10,240 Prize will be drawn from this node's first day of block rewards
 
 
 
