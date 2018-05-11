@@ -28,20 +28,23 @@ Cloud Based VM
 
 `Budget Expenditure and Technical Plan before June 26, 2018`
 
+Although the recommended configuration is to use Amazon AWS with 25 Gbps network i/o, we are going to start with a service that offers a 40 Gbps in / 10 Gbps out network connection. The largest configuration available at this host is 16 core / 200 GB ram. We will test this against AWS to test the possibility that while the Tron main net is still young there may be more traffic headed into a Super Representative node than out. We will use whichever service performs better.
+
+
+
+
 (see below for detailed hardware configurations)    
 
-May 1 - May 28 alpha configuration $10 / month  
-May 29 - June 21 beta configuration $40 / month  
-June 22 - June 26 mock production configuration $320 / month  
+May 1 - May 28 alpha configuration $10  
+May 29 - June 21 beta configuration $120
+June 22 - June 26 Production Level I configuration $160
 
 
 `Hardware Expansion Plan after June 26, 2018`
 
-June 27 - June 30 production level I $1920 / month + $1000 per day data transfer  
-July 1 - July 31 production level II $50,000 / month  
-August 1 - December 31 production level III Estimate pending  
-
-
+June 27 - June 30 production level II $4140  
+July 1 - July 31 production level III $50,000 / month  
+August 1 - December 31 production level IV Estimate pending  
 
 
 
@@ -58,11 +61,11 @@ We have contributed to the Tron Wiki and have merged one change already.
 `List of key staff and their photos`
 
 CTO				[Jason Neely](./jason_neely.jpg)    
-WAN Strategist			[xxxxx](./photos/xxxxx)    
-Marketing	 	[Michael](./photos/michael)  
+WAN Strategist	[Greg](./photos/xxxxx)    
+Marketing	 	
 Social Media  
 Outreach  
-Applications  
+Applications   Colradi
 
 
 
@@ -76,18 +79,10 @@ Applications
 • WAN Strategist  
 > Greg is a SysAdmin for a Fortune 500 company. He is responsible for a network of 
 
-• Social Media Strategist  
-> Michael is the founder & chief strategist of xxxxxxx, a SEO, PPP & Remarketing specialty outfit. In his spare time he likes to run an Antminer that drives his family nuts.  
 
 • Application Education    
->  XXXXXXXX has written several Java applications  
+>  Colradi is a computer engineer in love with blockchain. He worked as an IT consultant and Java teacher (the same language in which Tron blockchain has been coded) for (too) many years in Madrid. Now he enjoys the inner peace of the mediterranean ocean, near Barcelona, and spends his days involved in a neverending Javascript project.
 
-
-
-The following vendors have agreed to work with Community Node:
-
-• Devops Expansion Engineer  
-> John is a Docker & Kubernetes specialist located in Great Britain. (paste bio)  
 
 
 
@@ -109,6 +104,10 @@ We openly publish our knowledge in a github repository to strengthen the SR comm
 We are holding a contest for the best main net java dapp, prize is 10,240 TRX* good for 10 dapp uploads
 
 • Livestream,   
+https://www.periscope.tv/w/1ynKOAqXeEwJR
+Archived at YouTube:
+https://www.youtube.com/watch?v=PW0mWR9tVkw
+
 
 • MEET UP  
 
@@ -134,33 +133,31 @@ Debian GNU/Linux 9.1 (stretch) 4.15.12-x86_64
 
 # BETA TEST CONFIGURATION  
 2500 MHz Intel(R) Celeron(R) M processor  
-8 		GB RAM    
-4 		CPU Cores    
-96 		GB SSD Storage    
-40 		Gbps Network In    
-1 		Gbps Network Out    
-2		GB Swap  
+24	 	GB RAM  
+8	 	CPU Cores  
+384 	GB SSD Storage  
+16		TB Transfer (+ .02¢ per GB)
+40 		Gbps Network In  
+2	 	Gbps Network Out  
 
 
 
-
-
-# MOCK PRODUCTION CONFIGURATION  
+# PRODUCTION LEVEL I CONFIGURATION  
 2500 MHz Intel(R) Celeron(R) M processor  
-48 	GB RAM    
-12 	CPU Cores    
-768 	GB SSD Storage    
-2	GB Swap  
-20 	TB Transfer (+ .02¢ per GB)  
-40 	Gbps Network In    
-4 		Gbps Network Out    
+200 	GB RAM    
+16 		CPU Cores    
+340 	GB SSD Storage    
+2		GB Swap  
+9 		TB Transfer  (+ .02¢ per GB)  
+40 		Gbps Network In    
+10 		Gbps Network Out    
 
 
 
 
 
 
-# PRODUCTION LEVEL I  
+# PRODUCTION LEVEL II  
 
 -- PRIMARY INSTANCE --  
 2500 MHz Intel(R) Celeron(R) M processor  
@@ -190,7 +187,7 @@ Debian GNU/Linux 9.1 (stretch) 4.15.12-x86_64
 
 
 
-# PRODUCTION LEVEL II  
+# PRODUCTION LEVEL III
 -- PRIMARY INSTANCE --  
 AWS 	x1.16xlarge  
 64 		cores  
@@ -213,7 +210,7 @@ AWS 	x1.16xlarge
 
 
 
-# PRODUCTION LEVEL III  
+# PRODUCTION LEVEL IV
 Kubernetes • Hadoop * Docker replicated network  
 
 TBD  
