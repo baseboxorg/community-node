@@ -1,8 +1,5 @@
 *This document stays updated at https://github.com/bondibox/community-node/blob/master/sr_application/application.md*
 
-
-> ** [To become a recommended Super Representative, candidates must meet the following requirements:*](https://medium.com/@Tronfoundation/tron-community-guidelines-ca10c2fcd444) **
-
 > Please send an application form containing the above information to the sr@tron.network  
 
 
