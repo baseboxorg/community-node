@@ -14,7 +14,7 @@
 
 
 **`• Company information:`**  
-The Community Node organization is an application of open source collaboration in the blockchain space. We seek to extend the Super Representative's role in the distributed network into a quasi-decentralized system by passing our role through to our community members. The organization will have a staff of executives and technical personnel, but it will be guided by our community members through the referendum process. By sharing and collaborating on our IT strategies, it is our hope to strengthen the entire blockchain industry and advance the determination of best practices. 
+The Community Node organization is an application of open source collaboration in the blockchain space. We seek to extend the Super Representative's role in the distributed network into a quasi-decentralized system by passing our role through to our community members. The organization will have a staff of executives and technical personnel, but it will be guided by our community members through collaboration and the referendum process. By sharing our IT strategies, it is our hope to strengthen the entire blockchain industry and advance the determination of best practices. 
 
 
 c/o Jason Neely  
@@ -112,14 +112,13 @@ June 22 - June 26 Production Level I 	 $160
 									------------------  
 Total expenses May 1 - June 26 = $315 + 100,000 TRX
 
-The recommended configuration is to use Amazon AWS with 25 Gbps network i/o but we have found a hosting service with a OC768 incoming network connection, offering 40 Gbps in and 10 Gbps out. We believe that the incoming network connection will be more critical for the Super Representative nodes, and the outbound connection will be used more with the Full Nodes. Therefore despite its shortcomings we believe there exists the potential for this service to be superlative to the de facto standard.
+The recommended configuration is to use Amazon AWS with 25 Gbps network i/o but we have found a hosting service with a OC768 incoming network connection, offering 40 Gbps in and 10 Gbps out. We believe that the incoming network connection will be critical for the Super Representative nodes, and the outbound connection will be used more with the Full Nodes. Therefore despite its shortcomings we believe there exists the potential for this service to be superlative to the de facto standard.
 
 Even though the largest configuration available at this host is 16 core / 200 GB ram, we are confident our initial setup will accommodate the estimated 2,000 TPS of the main net since our alpha configuration was able to produce blocks with 200 transactions during the test net operation. 
 
 We will compare this against AWS and will use whichever service performs better.
 
-Data storage will use 10 TB encrypted SSD hot pluggable drive.
-
+Data storage will use 2 TB encrypted SSD hot pluggable drive, expandable to 10 TB.
 
 **`• Plans for hardware expansion`**  
 Our witness node will start off with two identical server instances behind a HAProxy load balancer. This will provide us with redundancy and measurable performance of each node. We will deploy Full nodes on AWS which has a higher outbound network connection than our main node will employ.
@@ -172,8 +171,8 @@ Debian GNU/Linux 9.1 (stretch) 4.15.12-x86_64
 #### PRODUCTION LEVEL I CONFIGURATION  
 2500 MHz Intel(R) Celeron(R) M processor  
 200 	GB RAM    
-16 		CPU Cores    
-340 	GB SSD Storage    
+16 		CPU Cores        
+2+		TB SSD Storage  
 2		GB Swap  
 40 		Gbps Network In    
 10 		Gbps Network Out    
@@ -189,7 +188,7 @@ Debian GNU/Linux 9.1 (stretch) 4.15.12-x86_64
 2500 MHz Intel(R) Celeron(R) M processor  
 200 	GB RAM    
 16 		CPU Cores    
-340 	GB SSD Storage    
+2+		TB SSD Storage  
 2		GB Swap  
 40 		Gbps Network In    
 10 		Gbps Network Out    
@@ -223,7 +222,7 @@ AWS 	x1.16xlarge
 2500 MHz Intel(R) Celeron(R) M processor  
 200 	GB RAM    
 16 		CPU Cores    
-340 	GB SSD Storage    
+2+		TB SSD Storage    
 40 		Gbps Network In    
 10 		Gbps Network Out    
 
