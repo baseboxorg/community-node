@@ -1,0 +1,1 @@
+This document has been moved [here](https://github.com/bondibox/community-node/blob/master/doc/rewards_plan.md).
