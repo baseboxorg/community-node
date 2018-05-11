@@ -5,7 +5,7 @@
 
 
 
-**`• Official Website`**
+**`• Official Website`**  
 [http://tron.communitynode.org/](http://tron.communitynode.org/)  
 &  
 [https://github.com/bondibox/community-node/](https://github.com/bondibox/community-node/)  
@@ -13,7 +13,7 @@
 
 
 
-**`• Company information:`**
+**`• Company information:`**  
 The Community Node organization is an application of open source collaboration in the blockchain space. We seek to extend the Super Representative's role in the distributed network into a quasi-decentralized system by passing our role through to our community members. The organization will have a staff of executives and technical personnel, but it will be guided by our community members through the referendum process. By sharing and collaborating on our IT strategies, it is our hope to strengthen the entire blockchain industry and advance the determination of best practices. 
 
 
@@ -54,7 +54,7 @@ We are holding a contest for the best main net java dapp, prize is 10,240 TRX pa
 
 
 
-**`• Livestream`**
+**`• Livestream`**  
 https://www.periscope.tv/w/1ynKOAqXeEwJR  
 Archived at YouTube:  
 https://www.youtube.com/watch?v=PW0mWR9tVkw  
@@ -76,7 +76,7 @@ https://www.youtube.com/watch?v=PW0mWR9tVkw
 
 
 
-**`• Provide Background qualifications of key staff`**
+**`• Provide Background qualifications of key staff`**  
 Chief Technical Officer / Founder  
 > Jason Neely has maintained a *nix server almost constantly since 1998 when he installed RedHat and QTSS on his iMac. Soon after, he began work as an Apple Retail Representative, then went on to be a Tier 2 technician for Darwin Networks where he became Cisco certified. After the dot com bust he worked on the U.S. Congressional campaign of Andrew Horne, first as a volunteer who maintained the website and broadcasted emails, eventually writing copy and working directly with the communications team in a salaried position. From there, he formed Campaign Kickstart, a grassroots incubator, and developed an advocacy program for the Louisville Affordable Housing Trust Fund's Open the Door campaign (the legislature passed!). For the past 10 years he has been studying OOP and considers himself to be one of the last few Ruby on Rails enthusiasts.  
 
@@ -107,11 +107,11 @@ Cloud Based VM
 
 
 
-**`• Budget Expenditure and Technical Plan before June 26, 2018`**
-Domain Registration CommunityNode.org	 $15
+**`• Budget Expenditure and Technical Plan before June 26, 2018`**  
+Domain Registration CommunityNode.org	 $15  
 May 1 - May 28 alpha configuration		 $20  
 May 29 - June 21 beta configuration		 $120  
-June 22 - June 26 Production Level I 	 $160
+June 22 - June 26 Production Level I 	 $160  
 
 Total expenses May 1 - June 26 = $315
 
@@ -147,8 +147,7 @@ Promotional contest 10,240 trx
 
 
 
-
-***`DETAILED HARDWARE CONFIGURATIONS`***  
+### ***`DETAILED HARDWARE CONFIGURATIONS`***  
 
 
 #### ALPHA TEST CONFIGURATION  
