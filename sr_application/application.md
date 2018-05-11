@@ -1,3 +1,6 @@
+*This document stays updated at https://github.com/bondibox/community-node/blob/master/sr_application/application.md*
+
+
 > ** [To become a recommended Super Representative, candidates must meet the following requirements:*](https://medium.com/@Tronfoundation/tron-community-guidelines-ca10c2fcd444) **
 
 > Please send an application form containing the above information to the sr@tron.network  
@@ -25,7 +28,7 @@ Washington DC
 
 
 **`• Social Media Following`**  
-Our movement is still young and we are actively trying to bring in new members.
+Our movement is still young and we are actively trying to bring in new members.  
 Community Node on Telegram  
 [TRON Community Node & Super Representative](https://t.me/joinchat/IN2p-BFXGu8vByHn3qLyBg)  
 
@@ -94,7 +97,7 @@ Application Education
 
 
 **`• Testable nodes`**  
-[Full sync was reached](./numberone.png) on April 27 with 300+ blocks produced.
+[Full sync was reached](./number_one.png) on April 27 with 300+ blocks produced.
 
 
 
@@ -136,7 +139,7 @@ Based on our usage metrics we may advance our timeline for clustering our main n
 
 **`• Budget expenses`**  
 June 27 - June 30 Production level II $4,140  
-July 1 - July 31 Production level III $50,000
+July 1 - July 31 Production level III $50,000  
 August 1 - December 31 Production level IV Estimate pending  
 
 Promotional contest 10,240 trx
@@ -169,7 +172,6 @@ Debian GNU/Linux 9.1 (stretch) 4.15.12-x86_64
 24	 	GB RAM  
 8	 	CPU Cores  
 384 	GB SSD Storage  
-16		TB Transfer (+ .02¢ per GB)
 40 		Gbps Network In  
 2	 	Gbps Network Out  
 
@@ -181,7 +183,6 @@ Debian GNU/Linux 9.1 (stretch) 4.15.12-x86_64
 16 		CPU Cores    
 340 	GB SSD Storage    
 2		GB Swap  
-9 		TB Transfer  (+ .02¢ per GB)  
 40 		Gbps Network In    
 10 		Gbps Network Out    
 
@@ -198,7 +199,6 @@ Debian GNU/Linux 9.1 (stretch) 4.15.12-x86_64
 16 		CPU Cores    
 340 	GB SSD Storage    
 2		GB Swap  
-9 		TB Transfer  (+ .02¢ per GB)  
 40 		Gbps Network In    
 10 		Gbps Network Out    
 
@@ -209,7 +209,6 @@ Debian GNU/Linux 9.1 (stretch) 4.15.12-x86_64
 16 		CPU Cores    
 340 	GB SSD Storage    
 2		GB Swap  
-9 		TB Transfer  (+ .02¢ per GB)  
 40 		Gbps Network In    
 10 		Gbps Network Out    
 
@@ -233,7 +232,6 @@ AWS 	x1.16xlarge
 200 	GB RAM    
 16 		CPU Cores    
 340 	GB SSD Storage    
-9 		TB Transfer  (+ .02¢ per GB)  
 40 		Gbps Network In    
 10 		Gbps Network Out    
 
