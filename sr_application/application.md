@@ -6,7 +6,6 @@
 
 
 **`• Official Website`**
-
 [http://tron.communitynode.org/](http://tron.communitynode.org/)  
 &  
 [https://github.com/bondibox/community-node/](https://github.com/bondibox/community-node/)  
@@ -15,11 +14,10 @@
 
 
 **`• Company information:`**
+The Community Node organization is an application of open source collaboration in the blockchain space. We seek to extend the Super Representative's role in the distributed network into a quasi-decentralized system by passing our role through to our community members. The organization will have a staff of executives and technical personnel, but it will be guided by our community members through the referendum process. By sharing and collaborating on our IT strategies, it is our hope to strengthen the entire blockchain industry and advance the determination of best practices. 
 
-The Community Node organization is an application of open source collaboration in the blockchain space. We seek to extend the Super Representative's role in the distributed network into a quasi-decentralized system by passing our role through to our community members. The organization will have a staff of executives and technical personnel, but it will be guided by our community members through the referendum process. By sharing and collaborating on our IT strategies, it is our hope that the determination of best practices will evolve more quickly. By sharing and collaborating on our IT strategies, we hope to strengthen the entire blockchain industry. 
 
-
-c/o Jason Neely
+c/o Jason Neely  
 PO Box 39029  
 Washington DC  
 20016
@@ -37,10 +35,9 @@ Our network administrator is active on Reddit [r/tronix]((http://reddit.com/r/tr
 
 
 **`• Community Support Plan for 2018`**  
-
 We have created a staging network which is a replica of the Tron network and which will allow the community to practice with wallets and to beta test the behavior of newly created dapps. It is already working in alpha with 1 witness and 2 seed nodes.  We will continue the expansion of our test net to include solidity nodes and web wallets.
 
-We will create a How To demonstration for a simple dapp game that flips a coin and pays tokens when guessed correctly. Users can upload this dapp to the test net to experience the same functionality as the Tron main net.
+We will create a How To demonstration for a simple dapp game that flips a coin and pays tokens when guessed correctly. Users can upload this dapp to the staging network to experience the same functionality as the Tron main net.
 
 We have entered into a strategic partnership with the Sesame Seeds SR Group to provide community support on a broader level than either of us is able to provide on our own. Together we are operating a [TRON Help Group](https://t.me/joinchat/IN2p-BK-bWl1zSbN7L5zEQ) at Telegram to answer questions related to the Tron main net. 
 
@@ -53,17 +50,14 @@ In keeping with our open source ideology, we will also be pooling our collective
 
 
 **`• Community promotion efforts`**   
-
-We openly publish our knowledge in a github repository to strengthen the SR community  
 We are holding a contest for the best main net java dapp, prize is 10,240 TRX payable from our node's first day of block rewards. Good for 10 dapp uploads on the Tron main net.
 
 
 
 **`• Livestream`**
-
-https://www.periscope.tv/w/1ynKOAqXeEwJR
-Archived at YouTube:
-https://www.youtube.com/watch?v=PW0mWR9tVkw
+https://www.periscope.tv/w/1ynKOAqXeEwJR  
+Archived at YouTube:  
+https://www.youtube.com/watch?v=PW0mWR9tVkw  
 
 
 
@@ -72,18 +66,17 @@ https://www.youtube.com/watch?v=PW0mWR9tVkw
 
 
 **`• List of key staff and their photos`**  
-CTO				[Jason Neely](./jason_neely.jpg)    
-WAN Strategist	[Greg](./photos/xxxxx)    
-Marketing	 	
-Social Media  
-Outreach  
-Applications   Colradi
+*CTO*				[Jason Neely](./jason_neely.jpg)    
+*WAN Strategist*	[Greg](./photos/xxxxx)    
+*dapp Education*		Colradi
+*Marketing*  	 	
+*Social Media*  
+*Outreach*  
 
 
 
 
 **`• Provide Background qualifications of key staff`**
-
 Chief Technical Officer / Founder  
 > Jason Neely has maintained a *nix server almost constantly since 1998 when he installed RedHat and QTSS on his iMac. Soon after, he began work as an Apple Retail Representative, then went on to be a Tier 2 technician for Darwin Networks where he became Cisco certified. After the dot com bust he worked on the U.S. Congressional campaign of Andrew Horne, first as a volunteer who maintained the website and broadcasted emails, eventually writing copy and working directly with the communications team in a salaried position. From there, he formed Campaign Kickstart, a grassroots incubator, and developed an advocacy program for the Louisville Affordable Housing Trust Fund's Open the Door campaign (the legislature passed!). For the past 10 years he has been studying OOP and considers himself to be one of the last few Ruby on Rails enthusiasts.  
 
@@ -99,7 +92,6 @@ Application Education
 
 
 **`• Testable nodes`**  
-
 Full sync was reached on April 27 with 300+ blocks produced.
 
 
@@ -116,7 +108,6 @@ Cloud Based VM
 
 
 **`• Budget Expenditure and Technical Plan before June 26, 2018`**
-
 Domain Registration CommunityNode.org	 $15
 May 1 - May 28 alpha configuration		 $20  
 May 29 - June 21 beta configuration		 $120  
@@ -134,7 +125,6 @@ Data storage will use 10 TB encrypted SSD hot pluggable drive.
 
 
 **`• Plans for hardware expansion`**  
-
 Our witness node will start off with two identical server instances behind a HAProxy load balancer. This will provide us with redundancy and measurable performance of each node. We will deploy Full nodes on AWS which has a higher outbound network connection than our main node will employ.
 
 Based on our usage metrics we may advance our timeline for clustering our main node server in a replicated docker & kubernetes system, which we hope to accomplish by December 31, 2018.
@@ -143,7 +133,6 @@ Based on our usage metrics we may advance our timeline for clustering our main n
 
 
 **`• Budget expenses`**  
-
 June 27 - June 30 Production level II $4,140  
 July 1 - July 31 Production level III $50,000
 August 1 - December 31 Production level IV Estimate pending  
@@ -185,7 +174,7 @@ Debian GNU/Linux 9.1 (stretch) 4.15.12-x86_64
 
 
 
-### PRODUCTION LEVEL I CONFIGURATION  
+#### PRODUCTION LEVEL I CONFIGURATION  
 2500 MHz Intel(R) Celeron(R) M processor  
 200 	GB RAM    
 16 		CPU Cores    
@@ -200,7 +189,7 @@ Debian GNU/Linux 9.1 (stretch) 4.15.12-x86_64
 
 
 
-## PRODUCTION LEVEL II  
+#### PRODUCTION LEVEL II  
 
 -- PRIMARY INSTANCE --  
 2500 MHz Intel(R) Celeron(R) M processor  
@@ -230,7 +219,7 @@ Debian GNU/Linux 9.1 (stretch) 4.15.12-x86_64
 
 
 
-# PRODUCTION LEVEL III
+#### PRODUCTION LEVEL III
 -- PRIMARY INSTANCE --  
 AWS 	x1.16xlarge  
 64 		cores  
@@ -253,7 +242,7 @@ AWS 	x1.16xlarge
 
 
 
-# PRODUCTION LEVEL IV
+#### PRODUCTION LEVEL IV
 Kubernetes • Hadoop * Docker replicated network  
 
 TBD  
