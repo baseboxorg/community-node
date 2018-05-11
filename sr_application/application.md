@@ -110,7 +110,7 @@ Super Representative Application Fee	 100,000 TRX
 May 1 - May 28 alpha configuration		 $20  
 May 29 - June 21 beta configuration		 $120  
 June 22 - June 26 Production Level I 	 $160  
-									------------------
+									------------------  
 Total expenses May 1 - June 26 = $315 + 100,000 TRX
 
 The recommended configuration is to use Amazon AWS with 25 Gbps network i/o but we have found a hosting service with a OC768 incoming network connection, offering 40 Gbps in and 10 Gbps out. We believe that the incoming network connection will be more critical for the Super Representative nodes, and the outbound connection will be used more with the Full Nodes. Therefore despite its shortcomings we believe there exists the potential for this service to be superlative to the de facto standard.
