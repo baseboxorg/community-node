@@ -106,7 +106,7 @@ Cloud Based VM
 
 **`• Budget Expenditure and Technical Plan before June 26, 2018`**  
 Domain Registration CommunityNode.org	 $15  
-Super Representative Application Fee	 100,000 TRX
+Super Representative Application Fee	 100,000 TRX  
 May 1 - May 28 alpha configuration		 $20  
 May 29 - June 21 beta configuration		 $120  
 June 22 - June 26 Production Level I 	 $160  
