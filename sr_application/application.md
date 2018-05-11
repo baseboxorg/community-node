@@ -26,16 +26,18 @@ Washington DC
 
 **`• Social Media Following`**  
 Our movement is still young and we are actively trying to bring in new members.
-
+Community Node on Telegram  
 [TRON Community Node & Super Representative](https://t.me/joinchat/IN2p-BFXGu8vByHn3qLyBg)  
+
+Community Node on Twitter  
 [@community_node](https://twitter.com/community_node)   
 
-Our network administrator is active on Reddit [r/tronix]((http://reddit.com/r/tronix)) where they have 64,000 members and has become a go-to authority on the main net.
+Our network administrator is active on Reddit [r/tronix]((http://reddit.com/r/tronix)) where he has become a go-to authority on the main net.
 
 
 
 **`• Community Support Plan for 2018`**  
-We have created a staging network which is a replica of the Tron network and which will allow the community to practice with wallets and to beta test the behavior of newly created dapps. It is already working in alpha with 1 witness and 2 seed nodes.  We will continue the expansion of our test net to include solidity nodes and web wallets.
+We have created a staging network which is a replica of the Tron network and which will allow the community to practice with wallets and to beta test the behavior of newly created dapps. [It is already working in alpha](https://twitter.com/bondibox/status/991872321559261184) with 1 witness and 2 seed nodes.  We will continue the expansion of our test net to include solidity nodes and web wallets.
 
 We will create a How To demonstration for a simple dapp game that flips a coin and pays tokens when guessed correctly. Users can upload this dapp to the staging network to experience the same functionality as the Tron main net.
 
@@ -68,8 +70,8 @@ https://www.youtube.com/watch?v=PW0mWR9tVkw
 **`• List of key staff and their photos`**  
 *CTO*				[Jason Neely](./jason_neely.jpg)    
 *WAN Strategist*	[Greg](./photos/xxxxx)    
-*dapp Education*		Colradi
-*Marketing*  	 	
+*dapp Education*		Colradi  
+*Marketing*  
 *Social Media*  
 *Outreach*  
 
@@ -86,13 +88,13 @@ WAN Strategist
 
 
 Application Education    
->  Colradi is a computer engineer in love with blockchain. He worked as an IT consultant and Java teacher (the same language in which Tron blockchain has been coded) for (too) many years in Madrid. Now he enjoys the inner peace of the mediterranean ocean, near Barcelona, and spends his days involved in a neverending Javascript project.
+>  Colradi is a computer engineer in love with blockchain. He worked as an IT consultant and Java teacher for (too) many years in Madrid. Now he enjoys the inner peace of the mediterranean ocean, near Barcelona, and spends his days involved in a neverending Javascript project.
 
 
 
 
 **`• Testable nodes`**  
-Full sync was reached on April 27 with 300+ blocks produced.
+[Full sync was reached](./numberone.png) on April 27 with 300+ blocks produced.
 
 
 
