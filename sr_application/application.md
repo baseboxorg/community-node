@@ -79,8 +79,7 @@ Chief Technical Officer / Founder
 
 
 WAN Strategist  
-> Greg is a SysAdmin for a Fortune 500 company. He is responsible for a network of 
-
+> Greg is a SysAdmin for a leading Aerospace Manufacturer with over 90,000 users located around the globe. Over the past 12 years Greg has worked his way up the IT ladder learning many different products, software, and systems along the way. He currently holds a Bachelor in Networks and Communication and is near to completing his Technology focused MBA. Greg is an avid believer in the Tron Network Project and is excited to witness and be involved with its creation.
 
 Application Education    
 >  Colradi is a computer engineer in love with blockchain. He worked as an IT consultant and Java teacher for (too) many years in Madrid. Now he enjoys the inner peace of the mediterranean ocean, near Barcelona, and spends his days involved in a neverending Javascript project.
