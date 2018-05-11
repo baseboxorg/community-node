@@ -26,12 +26,9 @@ Washington DC
 
 **`• Social Media Following`**  
 Our movement is still young and we are actively trying to bring in new members.  
-Community Node on Telegram  
-[TRON Community Node & Super Representative](https://t.me/joinchat/IN2p-BFXGu8vByHn3qLyBg)  
 
-Community Node on Twitter  
-[@community_node](https://twitter.com/community_node)   
-
+Community Node on Telegram: [TRON Community Node & Super Representative](https://t.me/joinchat/IN2p-BFXGu8vByHn3qLyBg)  
+Community Node on Twitter:  [@community_node](https://twitter.com/community_node)   
 Our network administrator is active on Reddit [r/tronix]((http://reddit.com/r/tronix)) where he has become a go-to authority on the main net.
 
 
@@ -71,9 +68,7 @@ https://www.youtube.com/watch?v=PW0mWR9tVkw
 *CTO*				[Jason Neely](./jason_neely.jpg)    
 *WAN Strategist*	[Greg](./photos/xxxxx)    
 *dapp Education*		Colradi  
-*Marketing*  
-*Social Media*  
-*Outreach*  
+
 
 
 
