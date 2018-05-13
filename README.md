@@ -54,6 +54,8 @@ Questions facing the Super Representative could be:
   
 Token holders will participate in quarterly elections to select corporate officers and the Board of Directors. The executives of the organization (President, CEO, CTO, CFO) along with the board of directors will directly hire the remaining staff.
 
+Our Mission is to become an intellectual asset for the community. We are pioneers in a brave new world, many will follow in our footsteps. Let us light their way.
+
 You are encouraged to join us and become a part of our group. It's people just like you who we want to include in this effort. Thanks!
 
 Website:
