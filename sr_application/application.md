@@ -109,10 +109,9 @@ Cloud Based VM
 Domain Registration CommunityNode.org	 $15  
 Super Representative Application Fee	 100,000 TRX  
 May 1 - May 28 alpha configuration		 $20  
-May 29 - June 21 beta configuration		 $120  
-June 22 - June 26 Production Level I 	 $160  
+May 29 - June 26 beta configuration		 $200  
 									------------------  
-Total expenses May 1 - June 26 = $315 + 100,000 TRX
+Total expenses May 1 - June 26 = $235 + 100,000 TRX
 
 The recommended configuration is an Amazon AWS x1 with 25 Gbps network i/o but we have found a hosting service with a OC768 incoming network connection, offering 40 Gbps in and 10 Gbps out. We believe that the incoming network connection will be critical for the Super Representative nodes, and the outbound connection will be used more with the Full Nodes. Therefore we believe there exists the potential for this service to be superlative to the de facto standard.
 
@@ -129,17 +128,17 @@ Our first goal is to separate each server instance's storage from the host and c
 
 We will deploy Full nodes on AWS which has a higher outbound network connection than our main node will employ.
 
-Based on our usage metrics we may advance our timeline for clustering our main node server in a replicated docker & kubernetes system, which we hope to accomplish by December 31, 2018.
-
-
 
 
 **`• Budget expenses`**  
 June 27 - June 30 Production level II $4,140  
-July 1 - July 31 Production level III $50,000  
-August 1 Network expansion $10,000  
-August 1 - December 31 Production level IV Estimate pending  
+July 1 - December 31 Production level III $2,376,000  
 Promotional contest 10,240 trx  
+
+Using Tron Labs recommended configuration and budget, an estimate of 3 PiB of monthly data transfer is achieved, for which we pay .02¢ per GB, or roughly $1,000 per day. Our per-instance rate of $960 brings the total monthly cost to $39,600.
+
+
+
 
 Salaries are per annum maximums from June 27 - December 31 and will be based on the percentage of block participation.*  
 
