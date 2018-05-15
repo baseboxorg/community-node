@@ -16,7 +16,7 @@
 **`• Company information:`**  
 The Community Node organization is an application of open source collaboration in the blockchain space. We seek to extend the Super Representative's role in the distributed network into a quasi-decentralized system by passing our role through to our community members. The organization will have a staff of executives and technical personnel, but it will be guided by our community members through collaboration and the referendum process. By sharing our IT strategies, it is our hope to strengthen the entire blockchain industry and advance the determination of best practices. 
 
-Our Mission is to become an intellectual asset for the community. We are pioneers in a brave new world, many will follow in our footsteps. Let us light their way.
+Our Mission is to become an intellectual asset for the community. We are all pioneers in a brave new world, and many will follow in our footsteps. Community node believes we have a responsibility to help the ones who come after us, by leaving a well documented record or our endeavor.
 
 
 c/o Jason Neely  
