@@ -34,7 +34,7 @@ Our network administrator is active on Reddit [r/tronix]((http://reddit.com/r/tr
 
 
 **`• Community Support Plan for 2018`**  
-We have created a staging network which is a replica of the Tron network and which will allow the community to practice with wallets and to beta test the behavior of newly created dapps. [It is already working in alpha](https://twitter.com/bondibox/status/991872321559261184) with 1 witness and 2 seed nodes.  We will continue the expansion of our test net to include solidity nodes and web wallets.
+We have created a staging network which is a replica of the Tron network and which will allow the community to practice with wallets and to beta test the behavior of newly created dapps. [It is already working in alpha](https://twitter.com/bondibox/status/991872321559261184) with 2 witnesses and 2 seed nodes.  We will continue the expansion of our test net to include solidity nodes and web wallets.
 
 We will create a How To demonstration for a simple dapp game that flips a coin and pays tokens when guessed correctly. Users can upload this dapp to the staging network to experience the same functionality as the Tron main net.
 
@@ -112,16 +112,20 @@ June 22 - June 26 Production Level I 	 $160
 									------------------  
 Total expenses May 1 - June 26 = $315 + 100,000 TRX
 
-The recommended configuration is to use Amazon AWS with 25 Gbps network i/o but we have found a hosting service with a OC768 incoming network connection, offering 40 Gbps in and 10 Gbps out. We believe that the incoming network connection will be critical for the Super Representative nodes, and the outbound connection will be used more with the Full Nodes. Therefore despite its shortcomings we believe there exists the potential for this service to be superlative to the de facto standard.
+The recommended configuration is an Amazon AWS x1 with 25 Gbps network i/o but we have found a hosting service with a OC768 incoming network connection, offering 40 Gbps in and 10 Gbps out. We believe that the incoming network connection will be critical for the Super Representative nodes, and the outbound connection will be used more with the Full Nodes. Therefore we believe there exists the potential for this service to be superlative to the de facto standard.
 
-Even though the largest configuration available at this host is 16 core / 200 GB ram, we are confident our initial setup will accommodate the estimated 2,000 TPS of the main net since our alpha configuration was able to produce blocks with 200 transactions during the test net operation. 
+The largest configuration available at this host is 16 core / 200 GB RAM. Using Symmetric MultiProcessor software we have clustered 10 server instances, currently using that host's smallest configuration. We can re-provision our cluster to the higher configuration in 10 minutes, and we can also add more server instances to the cluster for nearly unlimited resources. 
+
+Our initial production deployment of 10x instances will give us a total of 160 cores, 2 TB RAM, and 3.4 TB SSD.
 
 We will compare this against AWS and will use whichever service performs better.
 
-Data storage will use 2 TB encrypted SSD hot pluggable drive, expandable to 10 TB.
 
 **`• Plans for hardware expansion`**  
-Our witness node will start off with two identical server instances behind a HAProxy load balancer. This will provide us with redundancy and measurable performance of each node. We will deploy Full nodes on AWS which has a higher outbound network connection than our main node will employ.
+
+Our first goal is to separate each server instance's storage from the host and combine them in a RAID 5 striped array.
+
+We will deploy Full nodes on AWS which has a higher outbound network connection than our main node will employ.
 
 Based on our usage metrics we may advance our timeline for clustering our main node server in a replicated docker & kubernetes system, which we hope to accomplish by December 31, 2018.
 
@@ -131,12 +135,23 @@ Based on our usage metrics we may advance our timeline for clustering our main n
 **`• Budget expenses`**  
 June 27 - June 30 Production level II $4,140  
 July 1 - July 31 Production level III $50,000  
+August 1 Network expansion $10,000  
 August 1 - December 31 Production level IV Estimate pending  
+Promotional contest 10,240 trx  
 
-Promotional contest 10,240 trx
+Salaries are per annum maximums from June 27 - December 31 and will be based on the percentage of block participation.*  
 
+Jason Neely < 500,000 TRX (2.6% gross revenue) paid at the rate of 2 TRX per block until max payout is reached, and contingent upon the following expectations having been met:  
+ ^ Able to meet technical requirements of Super Representative node  
+ ^ Able to meet organization requirements of Super Representative node  
+ ^ Continued operation of Super Representative node  
+ ^ Hardware expansion goals met in timely manner
 
-
+Colradi < 20,000 TRX paid upon completion of achievement levels:  
+ ^ 10,000 TRX Written java based distributed application  
+ ^ 2,000 TRX Uploaded dapp to test net  
+ ^ 2,000 TRX Created token for dapp  
+ ^ 6,000 TRX Produced HowTo document for dapp creation, upload, and token  
 
 
 
@@ -146,95 +161,48 @@ Promotional contest 10,240 trx
 ### ***`DETAILED HARDWARE CONFIGURATIONS`***  
 
 
-#### ALPHA TEST CONFIGURATION  
+#### ALPHA CONFIGURATION  
+40 		Gbps Network In    
+1 		Gbps Network Out    
+
 Debian GNU/Linux 9.1 (stretch) 4.15.12-x86_64  
 2500 MHz Intel(R) Celeron(R) M processor  
 4	 	GB RAM    
 2 		CPU Cores    
 46 		GB SSD Storage    
-40 		Gbps Network In    
-1 		Gbps Network Out    
 2256	SWAP  
 
 
 
-#### BETA TEST CONFIGURATION  
+#### BETA CONFIGURATION  
+40 		Gbps Network In    
+1 		Gbps Network Out    
+
 2500 MHz Intel(R) Celeron(R) M processor  
-24	 	GB RAM  
-8	 	CPU Cores  
-384 	GB SSD Storage  
-40 		Gbps Network In  
-2	 	Gbps Network Out  
+10x 	4	 	GB RAM    
+10x		2 		CPU Cores    
+10x 	46 		GB SSD Storage    
+10x 	2256	SWAP  
+
 
 
 
 #### PRODUCTION LEVEL I CONFIGURATION  
-2500 MHz Intel(R) Celeron(R) M processor  
-200 	GB RAM    
-16 		CPU Cores        
-2+		TB SSD Storage  
-2		GB Swap  
 40 		Gbps Network In    
 10 		Gbps Network Out    
 
-
-
-
-
-
-#### PRODUCTION LEVEL II  
-
--- PRIMARY INSTANCE --  
 2500 MHz Intel(R) Celeron(R) M processor  
-200 	GB RAM    
-16 		CPU Cores    
-2+		TB SSD Storage  
-2		GB Swap  
-40 		Gbps Network In    
-10 		Gbps Network Out    
-
-
--- FAILOVER INSTANCE --  
-2500 MHz Intel(R) Celeron(R) M processor  
-200 	GB RAM    
-16 		CPU Cores    
-340 	GB SSD Storage    
-2		GB Swap  
-40 		Gbps Network In    
-10 		Gbps Network Out    
+10x		200 	GB RAM    
+10x		16 		CPU Cores        
+10x		2+		TB SSD Storage  
+10x		2		GB Swap  
 
 
 
-
-
-
-
-
-#### PRODUCTION LEVEL III
--- PRIMARY INSTANCE --  
-AWS 	x1.16xlarge  
-64 		cores  
-1 		TB RAM  
-1		TB SSD(EBS)  
-25		Gbps Network  
-
--- FAILOVER INSTANCE --  
-2500 MHz Intel(R) Celeron(R) M processor  
-200 	GB RAM    
-16 		CPU Cores    
-2+		TB SSD Storage    
-40 		Gbps Network In    
-10 		Gbps Network Out    
-
-
-
-
-
-
-
-#### PRODUCTION LEVEL IV
+#### PRODUCTION LEVEL II
 Kubernetes • Hadoop * Docker replicated network  
 
 TBD  
 
 
+*For the period of June 27 - December 31: Salaries, revenues, and some expenses are based on a maximum block production of 595,330
