@@ -113,9 +113,9 @@ May 29 - June 26 beta configuration		 $200
 									------------------  
 Total expenses May 1 - June 26 = $235 + 100,000 TRX
 
-The recommended configuration is an Amazon AWS x1 with 25 Gbps network i/o but we have found a hosting service with a OC768 incoming network connection, offering 40 Gbps in and 10 Gbps out. We believe that the incoming network connection will be critical for the Super Representative nodes, and the outbound connection will be used more with the Full Nodes. Therefore we believe there exists the potential for this service to be superlative to the de facto standard.
+The recommended configuration is an Amazon AWS x1.16xlarge with 25 Gbps network i/o but we have found a hosting service with a OC768 incoming network connection, offering 40 Gbps in and 10 Gbps out. We believe that the incoming network connection will be critical for the Super Representative nodes, and the outbound connection will be used more with the Full Nodes. Therefore we believe there exists the potential for this service to be superlative to the de facto standard.
 
-The largest configuration available at this host is 16 core / 200 GB RAM. Using Symmetric MultiProcessor software we have clustered 10 server instances, currently using that host's smallest configuration. We can re-provision our cluster to the higher configuration in 10 minutes, and we can also add more server instances to the cluster for nearly unlimited resources. 
+The largest configuration available at this host is 16 core / 200 GB RAM. We are currently building a cluster of server instances running in parallel. We can re-provision our cluster to the higher configuration in 10 minutes, and we can also add more server instances to the cluster for nearly unlimited resources. 
 
 Our initial production deployment of 10x instances will give us a total of 160 cores, 2 TB RAM, and 3.4 TB SSD.
 
@@ -138,8 +138,6 @@ Promotional contest 10,240 trx
 Using Tron Labs recommended configuration and budget, an estimate of 3 PiB of monthly data transfer is achieved, for which we pay .02¢ per GB, or roughly $1,000 per day. Our per-instance rate of $960 brings the total monthly cost to $39,600.
 
 
-
-
 Salaries are per annum maximums from June 27 - December 31 and will be based on the percentage of block participation.*  
 
 Jason Neely < 500,000 TRX (2.6% gross revenue) paid at the rate of 2 TRX per block until max payout is reached, and contingent upon the following expectations having been met:  
@@ -149,10 +147,10 @@ Jason Neely < 500,000 TRX (2.6% gross revenue) paid at the rate of 2 TRX per blo
  ^ Hardware expansion goals met in timely manner
 
 Colradi < 20,000 TRX paid upon completion of achievement levels:  
- ^ 10,000 TRX Written java based distributed application  
- ^ 2,000 TRX Uploaded dapp to test net  
- ^ 2,000 TRX Created token for dapp  
- ^ 6,000 TRX Produced HowTo document for dapp creation, upload, and token  
+ ^ 10,000 TRX java based distributed application written  
+ ^ 2,000 TRX dapp uploaded to test net  
+ ^ 2,000 TRX token created for dapp  
+ ^ 6,000 TRX dapp creation & upload HowTo document produced
 
 
 
@@ -176,27 +174,26 @@ Debian GNU/Linux 9.1 (stretch) 4.15.12-x86_64
 
 
 #### BETA CONFIGURATION  
-40 		Gbps Network In    
-1 		Gbps Network Out    
 
-2500 MHz Intel(R) Celeron(R) M processor  
 10x 	4	 	GB RAM    
 10x		2 		CPU Cores    
 10x 	46 		GB SSD Storage    
 10x 	2256	SWAP  
 
+40 		Gbps Network In    
+1 		Gbps Network Out    
 
 
 
 #### PRODUCTION LEVEL I CONFIGURATION  
-40 		Gbps Network In    
-10 		Gbps Network Out    
 
-2500 MHz Intel(R) Celeron(R) M processor  
 10x		200 	GB RAM    
 10x		16 		CPU Cores        
 10x		2+		TB SSD Storage  
 10x		2		GB Swap  
+
+40 		Gbps Network In    
+10 		Gbps Network Out    
 
 
 

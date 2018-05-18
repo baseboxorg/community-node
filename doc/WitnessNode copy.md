@@ -80,8 +80,8 @@ The standalone version of this app is wallet-web. In order to install wallet-web
     sudo npm install -g yarn
     git clone https://github.com/tronprotocol/wallet-web
     cd wallet-web
-    sudo yarn install
-    sudo yarn start
+    yarn install
+    yarn start
 then directing your browser to http://serveripaddress:3000
 If you try to install wallet-web without the right version of Yarn installed you will bork the install because the installer will already have staged the files incorrectly. To fix this you have to delete the contents of node-modules
 

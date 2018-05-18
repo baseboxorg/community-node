@@ -252,3 +252,69 @@ Here's a command to extract the display of discovered nodes.
 
 Next article - Adding a Solidity Node
 
+
+
+
+
+03:14:24.478 INFO  [nioEventLoopGroup-4-2] [o.t.c.n.n.NodeImpl](NodeImpl.java:1077) update peer 104.237.3.78 block both we have Num:215999,ID:0000000000034bbf8af84f11623bd1cbc6f8eb43caafbc08d35e05e59fb60c7f
+03:14:27.269 INFO  [nioEventLoopGroup-4-2] [o.t.c.d.DynamicPropertiesStore](DynamicPropertiesStore.java:552) update latest block header id = 0000000000034bc061fcd76d5350d4992dc44f38513ae19800525ca9a8e80abc
+03:14:27.269 INFO  [nioEventLoopGroup-4-2] [o.t.c.d.DynamicPropertiesStore](DynamicPropertiesStore.java:544) update latest block header number = 216000
+03:14:27.269 INFO  [nioEventLoopGroup-4-2] [o.t.c.d.DynamicPropertiesStore](DynamicPropertiesStore.java:536) update latest block header timestamp = 1526627667000
+03:14:27.271 INFO  [nioEventLoopGroup-4-2] [o.t.c.d.Manager](Manager.java:1033) update solid block, num = 215992
+03:14:27.274 INFO  [nioEventLoopGroup-4-2] [o.t.c.d.Manager](Manager.java:714) save block: BlockCapsule 
+03:14:27.276 INFO  [nioEventLoopGroup-4-2] [o.t.c.n.n.NodeImpl](NodeImpl.java:1077) update peer 54.219.41.56 block both we have Num:216000,ID:0000000000034bc061fcd76d5350d4992dc44f38513ae19800525ca9a8e80abc
+03:14:27.276 INFO  [nioEventLoopGroup-4-2] [o.t.c.n.n.NodeImpl](NodeImpl.java:259) Ready to broadcast a block, Its hash is 0000000000034bc061fcd76d5350d4992dc44f38513ae19800525ca9a8e80abc
+last know block num: 216000
+blockInPorc:0
+03:14:30.541 INFO  [TronJClientWorker-1] [o.t.c.d.DynamicPropertiesStore](DynamicPropertiesStore.java:552) update latest block header id = 0000000000034bc10c79b059d95152c5a65b0b3415dcafc7685418c9db9c7b00
+03:14:30.541 INFO  [TronJClientWorker-1] [o.t.c.d.DynamicPropertiesStore](DynamicPropertiesStore.java:544) update latest block header number = 216001
+03:14:30.541 INFO  [TronJClientWorker-1] [o.t.c.d.DynamicPropertiesStore](DynamicPropertiesStore.java:536) update latest block header timestamp = 1526627670000
+03:14:30.550 INFO  [TronJClientWorker-1] [o.t.c.n.n.NodeImpl](NodeImpl.java:259) Ready to broadcast a block, Its hash is 0000000000034bc10c79b059d95152c5a65b0b3415dcafc7685418c9db9c7b00
+blockWaitToProc: 0
+blockJustReceived: 0
+03:14:36.604 INFO  [nioEventLoopGroup-4-2] [MessageQueue](MessageQueue.java:94) rcv FETCH_INV_DATA from /104.237.3.78:34706
+03:14:36.604 INFO  [nioEventLoopGroup-4-2] [o.t.c.n.n.NodeImpl](NodeImpl.java:205) Handle Message: FETCH_INV_DATA:BLOCK, size=1, First hash:0000000000034bc3731c20f373c0e3949ffa262607c1a9f9849f7e0a7c5c778b from 
+Peer: /104.237.3.78:34706 | 5b3be0c2f7a89af0bbb62a25570630824f7dfef5d0925cf0c546b355c6740f16494bd35762781a95c901beb9af70cdec1f9dba041a11786dd7e181f31f5bbef6
+03:14:36.605 INFO  [nioEventLoopGroup-4-2] [MessageQueue](MessageQueue.java:86) send BLOCK to /104.237.3.78:34706
+03:14:36.615 INFO  [nioEventLoopGroup-4-1] [MessageQueue](MessageQueue.java:94) rcv BLOCK from /18.188.227.130:57404
+03:14:36.616 INFO  [nioEventLoopGroup-4-1] [o.t.c.n.n.NodeImpl](NodeImpl.java:205) Handle Message: [Message Type: BLOCK, Message Hash: 0000000000034bc3731c20f373c0e3949ffa262607c1a9f9849f7e0a7c5c778b] from 
+Peer: /18.188.227.130:57404 | 55622281e7aac3be8470999e5a52d80fcdf26e4cabce872b39bfb4933973f06204acdb276136096aae5ac6c03e8c12124c1cab497fc1d286ae9b2a6b8f57805e
+03:14:36.617 INFO  [nioEventLoopGroup-4-1] [o.t.c.n.n.NodeImpl](NodeImpl.java:617) handle Block number is 216003
+03:14:36.634 INFO  [nioEventLoopGroup-4-1] [MessageQueue](MessageQueue.java:94) rcv P2P_PING from /139.99.173.27:55810
+03:14:36.634 INFO  [nioEventLoopGroup-4-1] [MessageQueue](MessageQueue.java:86) send P2P_PONG to /139.99.173.27:55810
+03:14:36.639 INFO  [nioEventLoopGroup-4-1] [MessageQueue](MessageQueue.java:94) rcv P2P_PONG from /139.99.173.27:55810
+03:14:36.685 INFO  [TronJClientWorker-1] [MessageQueue](MessageQueue.java:94) rcv INVENTORY from /13.125.95.134:18888
+03:14:36.685 INFO  [TronJClientWorker-1] [o.t.c.n.n.NodeImpl](NodeImpl.java:205) Handle Message: INVENTORY:BLOCK, size=1, First hash:0000000000034bc3731c20f373c0e3949ffa262607c1a9f9849f7e0a7c5c778b from 
+Peer: /13.125.95.134:18888 | 9c1ce86bbad3e1e40cdc848d0cbbe1aace56aff67520afdd5e9745ee559f4360f72bc0f374c6fba58e23aa48f67b1fcb9ac5909edc015191c9593cfbcc144e09
+03:14:37.854 INFO  [pool-8-thread-1] [SyncPool](SyncPool.java:118) address: 195.201.32.0:18888, ID:ed31ce4c NodeStat[reput: 351(0), discover: 27/27 0/0 4963/4963 2453/2453 117ms, p2p: 20/20/20 , tron: 20/0 X 0  
+03:14:37.857 INFO  [pool-8-thread-1] [SyncPool](SyncPool.java:124) -------- active channel 20, node in user size 20
+03:14:37.857 INFO  [pool-8-thread-1] [SyncPool](SyncPool.java:127) /47.254.16.55:18888 | e89ec4a92ab927175caf3e42241375289ceb63e9a14b23edb6a04085b247fdc90a0b883214bf8af157a51109740cefb9e4157f420e19b1e9211992cc715130db
+03:14:37.863 INFO  [pool-8-thread-1] [SyncPool](SyncPool.java:146) Peer stats:
+Active peers
+============
+Peer 47.98.58.42:18888: [           bf620d79, ping    250 ms]-----------
+connect time: 2018-05-18 02:58:17.068
+last know block num: 216001
+needSyncFromPeer:false
+needSyncFromUs:false
+syncToFetchSize:0
+syncToFetchSizePeekNum:-1
+syncBlockRequestedSize:0
+unFetchSynNum:0
+syncChainRequested:NULL
+blockInPorc:0
+NodeStat[reput: 251(0), discover: 1/1 1/1 0/0 4858/4858 212ms, p2p: 10/10/12 , tron: 20039/17839 X 0  
+
+Other connected peers
+============
+03:14:38.174 INFO  [TronJClientWorker-1] [MessageQueue](MessageQueue.java:94) rcv INVENTORY from /47.254.16.55:18888
+03:14:38.174 INFO  [TronJClientWorker-1] [o.t.c.n.n.NodeImpl](NodeImpl.java:205) Handle Message: INVENTORY:TRX, size=1, First hash:957eb5ca18f233a655bf3e51bfb3bef8497f86a0af54a2ec46d552799a99a976 from 
+Peer: /47.254.16.55:18888 | e89ec4a92ab927175caf3e42241375289ceb63e9a14b23edb6a04085b247fdc90a0b883214bf8af157a51109740cefb9e4157f420e19b1e9211992cc715130db
+03:14:38.179 INFO  [broad-msg-] [MessageQueue](MessageQueue.java:86) send FETCH_INV_DATA to /35.230.28.129:58016
+03:14:38.247 INFO  [nioEventLoopGroup-4-1] [MessageQueue](MessageQueue.java:94) rcv TRXS from /35.230.28.129:58016
+03:14:38.247 INFO  [nioEventLoopGroup-4-1] [o.t.c.n.n.NodeImpl](NodeImpl.java:205) Handle Message: trx_size:1 from 
+Peer: /35.230.28.129:58016 | 7a3ca9de7ab064f047eeb5a7ab262094785cb4d78efde426251f7e7bba635ae096d2e48c9bde3a5b6bfc35749733660ad3be471dbde4220dc176adbb4814587b
+03:14:38.247 INFO  [nioEventLoopGroup-4-1] [o.t.c.n.n.NodeImpl](NodeImpl.java:770) onHandleTransactionsMessage, size = 1, peer 35.230.28.129
+03:14:38.247 INFO  [nioEventLoopGroup-4-1] [o.t.c.n.n.NodeDelegateImpl](NodeDelegateImpl.java:81) handle transaction
+03:14:38.247 INFO  [nioEventLoopGroup-4-1] [o.t.c.d.Manager](Manager.java:427) push transaction
+
