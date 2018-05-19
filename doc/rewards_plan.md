@@ -37,7 +37,7 @@ $4,140  		. . .		June 27 - June 30 Production level II
 $ . 			. . .		Automation & Replication Specialist  
 $ . 			. . .		Network Security Specialist  
 $237,600	  	. . .		July 1 - December 31 Node  
-100,000 TRX  	. . .		 Super Representative Application Fee	 
+100,000 TRX  	. . .		 Super Representative Application Fee  
 10,240 TRX  	. . .		Promotional contest  
 20,000 TRX		. . .		Colradi task bonus  
 500,000 TRX		. . .		Jason Neely salary from June 27 - December 31 (2.6%)  
