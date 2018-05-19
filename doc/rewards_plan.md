@@ -33,37 +33,37 @@ Over time TGNT may sponsor other blockchain programs which will accrue value for
 $15          			Domain Registration CommunityNode.org	 
 $20          			 May 1 - May 28 alpha configuration		 
 $200         			 May 29 - June 26 beta configuration		 
-$4,140  				June 27 - June 30 Production level II 
-$ . 					Automation & Replication Specialist
-$ . 					Network Security Specialist
-$237,600	  			July 1 - December 31 Node
+$4,140  				June 27 - June 30 Production level II  
+$ . 					Automation & Replication Specialist  
+$ . 					Network Security Specialist  
+$237,600	  			July 1 - December 31 Node  
 100,000 TRX  			 Super Representative Application Fee	 
-10,240 TRX  			Promotional contest
-20,000 TRX				Colradi task bonus
-500,000 TRX				Jason Neely salary from June 27 - December 31 (2.6%)
-?						Other Contests and Promotions
+10,240 TRX  			Promotional contest  
+20,000 TRX				Colradi task bonus  
+500,000 TRX				Jason Neely salary from June 27 - December 31 (2.6%)  
+?						Other Contests and Promotions  
 
 
 2019 Budgeted Expenses
 
-$475,000				Annual SR Node
-$500,000				Full Nodes
-$15          			Domain Registration CommunityNode.org
-750,000 TRX				Jason Neely salary from Jan 1 - December 31 (2.0%)
-2,000,000 TRX			Other expenses (staff, office, legal, transportation, etc)
-?						Contests and Promotions
-?						Reinvestment Program (2nd token airdrop)
+$475,000				Annual SR Node  
+$500,000				Full Nodes  
+$15          			Domain Registration CommunityNode.org  
+750,000 TRX				Jason Neely salary from Jan 1 - December 31 (2.0%)  
+2,000,000 TRX			Other expenses (staff, office, legal, transportation, etc)  
+?						Contests and Promotions  
+?						Reinvestment Program (2nd token airdrop)  
 
-Monthly Node cost breakdown 
+Monthly Node cost breakdown  
 
-$32,000 				$320 x 100 slave node instances
-$1,000					Gateway node
-$6,000					Additional data transfer
+$32,000 				$320 x 100 slave node instances  
+$1,000					Gateway node  
+$6,000					Additional data transfer  
 
 
-Each slave node provides the following resources
-16 Cores
-64 GB RAM
-1.28 TB SSD
+Each slave node provides the following resources  
+16 Cores  
+64 GB RAM  
+1.28 TB SSD  
 
 So for the $39,000 monthly cost, total resources will be 6.2 TB RAM and 1616 Cores with over 100 TB storage available through a redundant striped RAID, and 2.3 PiB of data transfer.
