@@ -56,12 +56,12 @@ $15          	  . . . 	Domain Registration CommunityNode.org
 
 Monthly Node cost breakdown  
 
-$32,000 	  . . . 		$320 x 100 slave node instances  
-$1,000		  . . . 		Gateway node  
+$32,000 	  . . . 		$320 x 100 slave VM instances  
+$1,000		  . . . 		Gateway VM  
 $6,000		  . . . 		Additional data transfer  
 
 
-Each slave node provides the following resources  
+Each slave VM provides the following resources  
 16 Cores  
 64 GB RAM  
 1.28 TB SSD  
