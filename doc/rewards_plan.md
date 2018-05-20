@@ -12,45 +12,57 @@ Our business plan is built around the contingency that we may not get elected as
 
 Therefore we wish to peg our initial benefit to the community to the services we can offer. This will build up concrete expectations which are achievable even on a part time status. 
 
-During our campaign for Super Represenative, we will be calculating a minimum and a maximum payout, and we may need to wait until after round one of mock voting is completed before being able to gauge the necessary number of votes to safely hold our seat.
+The daily rewards payout will be based on 30 day averages of votes, income, and expenses.  The 30 day average for votes will be recalculated daily; average income and expenses will be recalculated weekly. 
 
-The daily rewards payout will be based on 30 day aggregates of income and expenses, and calculated using 30 day moving average of daily votes received. This will give us a guaranteed, advertisable rate for the next day and a limited variation over the next 30 days. 
+Rewards per vote will be calculated using the following formula:
 
-The rewards system needs 30 days of data and revenue before the rewards function can begin. The 31st day will be considered day one for rewards, using the following formula:
 
+N = number of days address has voted for community node (minimum 1000 votes cast each day)  
+F = Fidelity. N divided by 2000, plus one, squared.  
+F = [(1 + N/2000) ^ 2]  
 
 V = Votes cast for us today by this address  
-N = number of days address has voted for community node (minimum 1000 votes cast each day)  
-
-F = Fidelity. N divided by 200, plus one, squared.  
-F = [(1 + N/200) ^ 2]  
-
-W = Weighted vote obligation  
 W = F x V  
-
-
-D = Daily reward per voting address  
+W = Weighted vote obligation  
 
 D = W x R  
+D = Daily reward per voting address  
 
-D = (total daily payout / total daily votes )  * Address Votes * [(1 + N/200) ^ 2]
+D = (total daily payout / total daily votes )  * Address Votes * [(1 + N/2000) ^ 2]
 
-For example, if we get elected as SR with an average of 100 million votes per day, (3 trillion monthly votes), and are able to maintain that SR position for the full 30 days, after one month the rewards would look like this:
+For example, if we get elected as SR every day of the month, revenues are approximately 3.4 million TRX and expenses are approximately 600,000 TRX, for a rewards pool of 2.8 million TRX.  
 
-Monthly revenues are approximately 3.4 million TRX and expenses are approximately 600,000 TRX, for a net of 2.8 million TRX. Dividing the monthly payout by the monthly votes, we get the rewards multiplier, R = 0.000933
+If the average is 100 million votes per day: 
 
-When our rewards era commences, everyone starts with a Fidelity of 1 because the number of days they have voted for us during our rewards era is zero, which divided by 200 is zero, added to one is one, and squared is still one. They will get paid 0.000933 per vote, which works out to 34% annual yield.
+Dividing the monthly payout by the monthly votes, we get the rewards multiplier, R = 0.0009333
 
-On the second day of rewards, that person's fidelity becomes 1.01, which multiplied times the number of votes gives the organization's weighted vote obligation to that person. This person will get paid 1.01 x 0.000933 or 0.000942 per vote.
+On the first day someone votes for us, they start with a Fidelity of 1 because the number of days they have voted for us is zero, which divided by 2000 is zero, added to one is one, and squared is still one. Multiply one times the monthly payout and divide by the monthly votes, they will get paid 0.0009333 per vote, which works out to 34.05% annual yield.
 
-On this second day, some voters will get paid 0.000933 per vote and some 0.000942 per vote depending on whether they voted for us the day before too.
+On the second day that they vote for us, that person's fidelity becomes 1.001, which multiplied times the number of votes gives the organization's weighted vote obligation to that person. This person will get paid 1.001 x 0.000933 or 0.0009339 per vote, equal to 34.08% annual.
 
-We must account for this overpayment of the rewards payout, and reduce the reward multiplier on day 3 by an equal amount. Based on half the voters being repeat voters with a Fidelity of 1.01, on day 3 the rewards multiplier will have to be 99.5% of the previous day's number, so instead of being 0.000933 it will be 0.000926, or 33.8% yield.
+On this second day, some voters will get paid 0.0009333 per vote and some will get 0.0009339 per vote depending on whether they voted for us the day before too. If half the voters have a fidelity of 1.001, the second day's rewards will be 100,025 TRX. 
 
-The new formula is the Sum of all the individual daily payouts divided by the actual rewardable amount, multiplied by the previous days rewards multiplier.
+We must reduce daily payout to stay within the limits of the reward pool. 0.999750062484379
+
+As the fidelity rewards grow, the base rate will decrease by an equal amount.  The final formula becomes the Sum of all the individual daily payouts divided by the actual rewardable amount, multiplied by the previous days rewards multiplier.
+
+On the third day, the rate will be 100000 / 100025 x 0.0009333 = 0.0009331
+
+To give you an idea of the value of the equity, a community node supporter who votes for us during the first 200 days will end up getting about 20% higher payout than a newcomer. After 400 days it will be 45% more. After 800 days it will be more than twice the introductory rate.
+
+One of our aims is to create stability within the organization and consistency around the rewards payout. 
+
+To further this aim, we will limit the reward as operating expenses are gradually met. 90% of first day rewards will be retained, with 10% less taken each day until only 10% of the rewards are retained. This will continue until 30 days of rewards have been banked.
+
+Keeping a 30 day payout reserve will let us increase the stability of the investment by issuing rewards regardless of whether we win the SR election that day, or not. 
+
+Then, we can give a guaranteed, advertised rate of return recalculated daily. And since the reward is based on the 30 day moving average of votes cast, the daily fluctuation will be minimal. 
+
+In essence, we would create a market for buying votes instead of rewarding them.
 
 
-The Fidelity formula may need to be tweaked so as not to grow exponentially large too quickly.
+
+
 
 
 2018 Budgeted Expenses 
@@ -93,3 +105,6 @@ Each slave VM provides the following resources
 1.28 TB SSD  
 
 So for the $39,000 monthly cost, total resources will be 6.2 TB RAM and 1616 Cores with over 100 TB storage available through a redundant striped RAID, and 2.3 PiB of data transfer.
+
+
+
