@@ -35,26 +35,22 @@ D = W x R
 
 D = (total daily payout / total daily votes )  * Address Votes * [(1 + N/200) ^ 2]
 
-
-SUM
-
-
 For example, if we get elected as SR with an average of 100 million votes per day, (3 trillion monthly votes), and are able to maintain that SR position for the full 30 days, after one month the rewards would look like this:
 
 Monthly revenues are approximately 3.4 million TRX and expenses are approximately 600,000 TRX, for a net of 2.8 million TRX. Dividing the monthly payout by the monthly votes, we get the rewards multiplier, R = 0.000933
 
-When our rewards era commences, everyone starts with a Fidelity of 1 because the number of days they have voted for us during our rewards era is zero, which divided by 200 is zero, added to one is one, and squared is still one. They will get paid 0.000933 per vote, which works out to 3.5% annual yield.
+When our rewards era commences, everyone starts with a Fidelity of 1 because the number of days they have voted for us during our rewards era is zero, which divided by 200 is zero, added to one is one, and squared is still one. They will get paid 0.000933 per vote, which works out to 34% annual yield.
 
 On the second day of rewards, that person's fidelity becomes 1.01, which multiplied times the number of votes gives the organization's weighted vote obligation to that person. This person will get paid 1.01 x 0.000933 or 0.000942 per vote.
 
 On this second day, some voters will get paid 0.000933 per vote and some 0.000942 per vote depending on whether they voted for us the day before too.
 
-We must account for this overpayment of the rewards payout, and reduce the reward multiplier on day 3 by an equal amount. Based on half the voters being repeat voters with a Fidelity of 1.01, on day 3 the rewards multiplier will have to be 99.5% of the previous day's number, so instead of being 0.000933 it will be 0.000926
+We must account for this overpayment of the rewards payout, and reduce the reward multiplier on day 3 by an equal amount. Based on half the voters being repeat voters with a Fidelity of 1.01, on day 3 the rewards multiplier will have to be 99.5% of the previous day's number, so instead of being 0.000933 it will be 0.000926, or 33.8% yield.
+
+The new formula is the Sum of all the individual daily payouts divided by the actual rewardable amount, multiplied by the previous days rewards multiplier.
 
 
 The Fidelity formula may need to be tweaked so as not to grow exponentially large too quickly.
-
-
 
 
 2018 Budgeted Expenses 
