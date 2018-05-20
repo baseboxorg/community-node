@@ -19,19 +19,19 @@ The daily rewards payout will be based on 30 day aggregates of income and expens
 The rewards system needs 30 days of data and revenue before the rewards function can begin. The 31st day will be considered day one for rewards, using the following formula:
 
 
-V = Votes cast for us today by this address 
-N = number of days address has voted for community node (minimum 1000 votes cast each day)
+V = Votes cast for us today by this address  
+N = number of days address has voted for community node (minimum 1000 votes cast each day)  
 
-F = Fidelity. N divided by 200, plus one, squared.
-F = [(1 + N/200) ^ 2]
+F = Fidelity. N divided by 200, plus one, squared.  
+F = [(1 + N/200) ^ 2]  
 
-W = Weighted vote obligation
-W = F x V
+W = Weighted vote obligation  
+W = F x V  
 
-R = Reward multiplier per vote. (daily payout / daily votes )
-D = Daily reward per voting address
+R = Reward multiplier per vote. (daily payout / daily votes )  
+D = Daily reward per voting address  
 
-D = W x R
+D = W x R  
 
 For example, if we get elected as SR with an average of 100 million votes per day, (3 trillion monthly votes), and are able to maintain that SR position for the full 30 days, after one month the rewards would look like this:
 
