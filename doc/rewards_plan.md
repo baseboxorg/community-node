@@ -26,9 +26,10 @@ W = F x V
 W = Weighted vote obligation  
 
 D = W x R  
+R = Rewards multiplier (monthly payout / monthly votes)
 D = Daily reward per voting address  
 
-D = (total daily payout / total daily votes )  * Address Votes * [(1 + N/2000) ^ 2]
+D = (total monthly payout / total monthly votes )  * Address Votes * [(1 + N/2000) ^ 2]
 
 For example, if we get elected as SR every day of the month, revenues are approximately 3.4 million TRX and expenses are approximately 600,000 TRX, for a rewards pool of 2.8 million TRX.  
 
@@ -42,7 +43,7 @@ On the second day that they vote for us, that person's fidelity becomes 1.001, w
 
 On this second day, some voters will get paid 0.0009333 per vote and some will get 0.0009339 per vote depending on whether they voted for us the day before too. If half the voters have a fidelity of 1.001, the second day's rewards will be 100,025 TRX. 
 
-We must reduce daily payout to stay within the limits of the reward pool. 0.999750062484379
+We must reduce daily payout to stay within the limits of the reward pool. 
 
 As the fidelity rewards grow, the base rate will decrease by an equal amount.  The final formula becomes the Sum of all the individual daily payouts divided by the actual rewardable amount, multiplied by the previous days rewards multiplier.
 
@@ -50,19 +51,15 @@ On the third day, the rate will be 100000 / 100025 x 0.0009333 = 0.0009331
 
 To give you an idea of the value of the equity, a community node supporter who votes for us during the first 200 days will end up getting about 20% higher payout than a newcomer. After 400 days it will be 45% more. After 800 days it will be more than twice the introductory rate.
 
-One of our aims is to create stability within the organization and consistency around the rewards payout. 
+One of our aims is to create stability within the organization and consistency around the rewards payout. To further this aim we will accrue a payout reserve that will let us give a guaranteed, advertised rate of return, recalculated daily with minimal fluctuation.
 
-To further this aim, we will limit the reward as operating expenses are gradually met. 90% of first day rewards will be retained, with 10% less taken each day until only 10% of the rewards are retained. This will continue until 30 days of rewards have been banked.
+We can then initiate a program where every vote is rewarded regardless of whether we win the Super Representative election that day. 
 
-Keeping a 30 day payout reserve will let us increase the stability of the investment by issuing rewards regardless of whether we win the SR election that day, or not. 
+On the first day that we win the Super Representative election we will retain 90% of would-be rewards. 
 
-Then, we can give a guaranteed, advertised rate of return recalculated daily. And since the reward is based on the 30 day moving average of votes cast, the daily fluctuation will be minimal. 
+On day 2 we can guarantee a reward per vote equal to Day 1 even if we lose the election on day 2. If we win on day 2 then the reward will increase by 10% on day 3, and we will only retain 80% of rewards. etc., until only 10% is being retained and it will stay like that until 30 days rewards are banked.
 
 In essence, we would create a market for buying votes instead of rewarding them.
-
-
-
-
 
 
 2018 Budgeted Expenses 
@@ -105,6 +102,4 @@ Each slave VM provides the following resources
 1.28 TB SSD  
 
 So for the $39,000 monthly cost, total resources will be 6.2 TB RAM and 1616 Cores with over 100 TB storage available through a redundant striped RAID, and 2.3 PiB of data transfer.
-
-
 
