@@ -12,19 +12,42 @@ Our business plan is built around the contingency that we may not get elected as
 
 Therefore we wish to peg our initial benefit to the community to the services we can offer. This will build up concrete expectations which are achievable even on a part time status. 
 
-After the launch of the Tron main net Super Representative elections, we will issue a TRX tethered "Tron Groupsource Node Token" which will function in several ways. 
-
-We will exchange the TGNT for TRX, and freeze the TRX to lock in votes. One of our daily administrative duties will be to maintain these voting rights by re-freezing TRX as needed. We will then determine an optimal rotation schedule whereby a sufficient number of TRX are always available for unfreezing for TGNT by members seeking to divest. This will provide the best of both worlds to Tronix coin holders - liquidity and voting rights.
-
-Another feature TGNT will provide is a tiered rewards system based on fidelity, or length of investment, giving the earliest supporters a higher rate of return than more recent community members. This will discourage divestment and limit the number of TRX we need to keep liquid. We are listening to proposed ratios of return for top tier vs. bottom tier and will solidify our ideas after we've gotten some feedback.
-
-The daily rewards payout for the TGNT tokenbase will be based on 30 day aggregates of income and expenses, and calculated using 30 day moving average of daily votes received. This will give us a guaranteed, advertisable rate for the next day and a limited variation over the next 30 days. 
-
-No rewards will be given to regular TRX holders who cast votes for us. They will benefit from our hard work for the community. 
-
 During our campaign for Super Represenative, we will be calculating a minimum and a maximum payout, and we may need to wait until after round one of mock voting is completed before being able to gauge the necessary number of votes, and therefore the number of TGNT issued to safely hold our seat.
 
-Over time TGNT may sponsor other blockchain programs which will accrue value for long term holders.
+The daily rewards payout will be based on 30 day aggregates of income and expenses, and calculated using 30 day moving average of daily votes received. This will give us a guaranteed, advertisable rate for the next day and a limited variation over the next 30 days. 
+
+The rewards system needs 30 days of data and revenue before the rewards function can begin. The 31st day will be considered day one for rewards, using the following formula:
+
+
+V = Votes cast for us today by this address 
+N = number of days address has voted for community node (minimum 1000 votes cast each day)
+
+F = Fidelity. N divided by 200, plus one, squared.
+F = [(1 + N/200) ^ 2]
+
+W = Weighted vote obligation
+W = F x V
+
+R = Reward multiplier per vote. (daily payout / daily votes )
+D = Daily reward per voting address
+
+D = W x R
+
+For example, if we get elected as SR with an average of 100 million votes per day, (3 trillion monthly votes), and are able to maintain that SR position for the full 30 days, after one month the rewards would look like this:
+
+Monthly revenues are approximately 3.4 million TRX and expenses are approximately 600,000 TRX, for a net of 2.8 million TRX. Dividing the monthly payout by the monthly votes, we get the rewards multiplier, R = 0.000933
+
+On the first day of rewards, everyone starts with a Fidelity of 1 because the number of days they have voted for us is zero, which divided by 200 is zero, added to one is one, and squared is still one. They will get paid 0.000933 per vote.
+
+On the second day of rewards, that person's fidelity becomes 1.010025, which multiplied times the number of votes gives the organization's weighted vote obligation to that person.
+
+On this second day, some voters will have the new fidelity number, but some will be first time voters and have an introductory fidelity of 1. So if half the voters had a N = 1 the average obligation would be 1.005. We must account for this augmentation to the rewards payout, and reduce the reward multiplier on day 3 by an equal amount. On day 3 the rewards multiplier will be 99.5% of the previous day's number, so instead of being 0.000933 it will be 0.000926
+
+Based on 100 Million votes per day, the introductory return will be 3.5% annual.
+
+The Fidelity formula may need to be tweaked so as not to grow exponentially large too quickly.
+
+
 
 
 2018 Budgeted Expenses 
