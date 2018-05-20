@@ -12,7 +12,7 @@ Our business plan is built around the contingency that we may not get elected as
 
 Therefore we wish to peg our initial benefit to the community to the services we can offer. This will build up concrete expectations which are achievable even on a part time status. 
 
-During our campaign for Super Represenative, we will be calculating a minimum and a maximum payout, and we may need to wait until after round one of mock voting is completed before being able to gauge the necessary number of votes, and therefore the number of TGNT issued to safely hold our seat.
+During our campaign for Super Represenative, we will be calculating a minimum and a maximum payout, and we may need to wait until after round one of mock voting is completed before being able to gauge the necessary number of votes to safely hold our seat.
 
 The daily rewards payout will be based on 30 day aggregates of income and expenses, and calculated using 30 day moving average of daily votes received. This will give us a guaranteed, advertisable rate for the next day and a limited variation over the next 30 days. 
 
@@ -37,13 +37,14 @@ For example, if we get elected as SR with an average of 100 million votes per da
 
 Monthly revenues are approximately 3.4 million TRX and expenses are approximately 600,000 TRX, for a net of 2.8 million TRX. Dividing the monthly payout by the monthly votes, we get the rewards multiplier, R = 0.000933
 
-On the first day of rewards, everyone starts with a Fidelity of 1 because the number of days they have voted for us is zero, which divided by 200 is zero, added to one is one, and squared is still one. They will get paid 0.000933 per vote.
+When our rewards era commences, everyone starts with a Fidelity of 1 because the number of days they have voted for us during our rewards era is zero, which divided by 200 is zero, added to one is one, and squared is still one. They will get paid 0.000933 per vote, which works out to 3.5% annual yield.
 
-On the second day of rewards, that person's fidelity becomes 1.010025, which multiplied times the number of votes gives the organization's weighted vote obligation to that person.
+On the second day of rewards, that person's fidelity becomes 1.01, which multiplied times the number of votes gives the organization's weighted vote obligation to that person. This person will get paid 1.01 x 0.000933 or 0.000942 per vote.
 
-On this second day, some voters will have the new fidelity number, but some will be first time voters and have an introductory fidelity of 1. So if half the voters had a N = 1 the average obligation would be 1.005. We must account for this augmentation to the rewards payout, and reduce the reward multiplier on day 3 by an equal amount. On day 3 the rewards multiplier will be 99.5% of the previous day's number, so instead of being 0.000933 it will be 0.000926
+On this second day, some voters will get paid 0.000933 per vote and some 0.000942 per vote depending on whether they voted for us the day before too.
 
-Based on 100 Million votes per day, the introductory return will be 3.5% annual.
+We must account for this augmentation to the rewards payout, and reduce the reward multiplier on day 3 by an equal amount. Based on half the voters being repeat voters with a Fidelity of 1.01, on day 3 the rewards multiplier will have to be 99.5% of the previous day's number, so instead of being 0.000933 it will be 0.000926
+
 
 The Fidelity formula may need to be tweaked so as not to grow exponentially large too quickly.
 
