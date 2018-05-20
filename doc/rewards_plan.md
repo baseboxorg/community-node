@@ -33,7 +33,7 @@ D = Daily reward per voting address
 
 D = W x R  
 
-D = (daily payout / daily votes )  * Votes * [(1 + N/200) ^ 2]
+D = (total daily payout / total daily votes )  * Address Votes * [(1 + N/200) ^ 2]
 
 
 SUM
