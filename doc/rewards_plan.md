@@ -28,10 +28,16 @@ F = [(1 + N/200) ^ 2]
 W = Weighted vote obligation  
 W = F x V  
 
-R = Reward multiplier per vote. (daily payout / daily votes )  
+
 D = Daily reward per voting address  
 
 D = W x R  
+
+D = (daily payout / daily votes )  * Votes * [(1 + N/200) ^ 2]
+
+
+SUM
+
 
 For example, if we get elected as SR with an average of 100 million votes per day, (3 trillion monthly votes), and are able to maintain that SR position for the full 30 days, after one month the rewards would look like this:
 
@@ -43,7 +49,7 @@ On the second day of rewards, that person's fidelity becomes 1.01, which multipl
 
 On this second day, some voters will get paid 0.000933 per vote and some 0.000942 per vote depending on whether they voted for us the day before too.
 
-We must account for this augmentation to the rewards payout, and reduce the reward multiplier on day 3 by an equal amount. Based on half the voters being repeat voters with a Fidelity of 1.01, on day 3 the rewards multiplier will have to be 99.5% of the previous day's number, so instead of being 0.000933 it will be 0.000926
+We must account for this overpayment of the rewards payout, and reduce the reward multiplier on day 3 by an equal amount. Based on half the voters being repeat voters with a Fidelity of 1.01, on day 3 the rewards multiplier will have to be 99.5% of the previous day's number, so instead of being 0.000933 it will be 0.000926
 
 
 The Fidelity formula may need to be tweaked so as not to grow exponentially large too quickly.
