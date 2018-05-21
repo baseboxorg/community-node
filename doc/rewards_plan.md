@@ -12,7 +12,7 @@ Our business plan is built around the contingency that we may not get elected as
 
 Therefore we wish to peg our initial benefit to the community to the services we can offer. This will build up concrete expectations which are achievable even on a part time status. 
 
-The daily rewards payout will be based on 30 day averages of votes, income, and expenses.  The 30 day average for votes will be recalculated daily; average income and expenses will be recalculated weekly. 
+The daily rewards payout will be based on 30 day averages of votes, income, and expenses.  The 30 day average for votes will be recalculated daily; average income and expenses will be recalculated weekly. The daily rewards payout will be disbursed 3 days after the vote has been cast.
 
 Rewards per vote will be calculated using the following formula:
 
@@ -57,7 +57,7 @@ We can then initiate a program where every vote is rewarded regardless of whethe
 
 On the first day that we win the Super Representative election we will retain 90% of would-be rewards. 
 
-On day 2 we can guarantee a reward per vote equal to Day 1 even if we lose the election on day 2. If we win on day 2 then the reward will increase by 10% on day 3, and we will only retain 80% of rewards. etc., until only 10% is being retained and it will stay like that until 30 days rewards are banked.
+On day 2 we can safely guarantee a reward per vote equal to Day 1. If we lose the election on day 2 the vote reward gets a half life of 1 day. If we win on day 2 then the reward will increase by 10%, and we will only retain 80% of rewards. etc., until only 10% is being retained and it will stay like that until 30 days rewards are banked.
 
 In essence, we would create a market for buying votes instead of rewarding them.
 
@@ -88,18 +88,3 @@ $15          	  . . . 	Domain Registration CommunityNode.org
 2,000,000 TRX	  . . . 	Other expenses (staff, office, legal, transportation, etc)  
 ?				  . . . 	Contests and Promotions  
 ?				  . . . 	Reinvestment Program (2nd token airdrop)  
-
-Monthly Node cost breakdown  
-
-$32,000 	  . . . 		$320 x 100 slave VM instances  
-$1,000		  . . . 		Gateway VM  
-$6,000		  . . . 		Additional data transfer  
-
-
-Each slave VM provides the following resources  
-16 Cores  
-64 GB RAM  
-1.28 TB SSD  
-
-So for the $39,000 monthly cost, total resources will be 6.2 TB RAM and 1616 Cores with over 100 TB storage available through a redundant striped RAID, and 2.3 PiB of data transfer.
-
