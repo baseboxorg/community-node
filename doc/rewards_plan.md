@@ -72,7 +72,7 @@ If we lose the second SR election, the day two payout will be 2% less than day o
 
 If we win the second SR election with 100 million votes:
 
-The Rewards Account now has 178,200 TRX in it. The daily rewards pool will be 3564 TRX. The base rate for the second day is 0.000036 TRX per vote.
+The Rewards Account now has 178,200 TRX in it. The daily rewards pool will be 3564 TRX. The base rate for the second day is 0.00003564 TRX per vote.
 
 On the second day, everyone who cast at least 5,000 votes the previous day will have a lifetime vote total T = 1. Their Multiplier M will be:
 
@@ -80,9 +80,9 @@ E = 0 (because ln T - 16 is negative)
 M = (1/2000 + 1) ^2  
 M = 1.001  
 
-They will receive 1.001 x 0.000036000 = 0.000036036 TRX per vote
+They will receive 1.001 x 0.00003564 = 0.00003568 TRX per vote
 
-Since they are receiving more than the base rate, on the third day we have to compensate by adjusting the base rate. We do this by dividing the intended amount for payout for day 2 by the total payout, and multiplying that fraction times the base rate.
+Since they are receiving more than the base rate, on the third day we have to compensate by adjusting the base rate. We do this by dividing the intended amount for payout for all votes on day 2 by the total payout, and multiplying that fraction times the base rate.
 
 
 If the node wins the SR election for each of those 50 days, the Rewards Account will be fully funded and the Daily Rewards Pool will be 90,000 TRX. If the average daily votes is 100 million like it was on the first couple days, the base rate will be 0.0009 per TRX (*not adjusted base rate).
