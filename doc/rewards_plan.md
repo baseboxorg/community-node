@@ -6,7 +6,7 @@ We think rewards are an easy promise to make as a way to get elected. We also th
 
 Our rewards plan depends on how many votes are required to win a Super Representative spot, and whether we get elected as Super Representative node full time or just part time.
 
-All of the other Super Representative’s rewards plans assume that full-time status will be obtained and that every day will provide 1/365th of the Super Representative's annual gross revenue.
+All of the other Super Representatives' rewards plans assume that full-time status will be obtained and that every day will provide 1/365th of the Super Representative's annual gross revenue.
 
 We believe this is a naive miscalculation. It would not be forthcoming if the organizers had considered this possibilty and decided not to include it in their business plan.
 
@@ -16,9 +16,9 @@ Our business plan is built around the contingency that we may not get elected as
 
 One of our aims is to create stability within the organization and consistency around the rewards payout. To further this aim we will accrue a payout reserve that will let us give a guaranteed, advertised rate of return, recalculated daily with minimal fluctuation.
 
-We can then initiate a program where every vote is rewarded regardless of whether we win the Super Representative election that day. 
+We can then initiate a program where every vote is rewarded regardless of whether we win the Super Representative election that day. Essentially, we would create a market for buying votes instead of rewarding them.
 
-As our node wins the Super Representative election, 90% of block rewards will be deposited into the Rewards Account. The Daily Reward Pool is 2% of the Rewards Account. The Rewards Account will grow until 50 days payout has been accrued and the the daily Reward Pool amount becomes equal to the daily deposit amount.
+As our node wins the Super Representative election, 90% of block rewards will be deposited into the Rewards Account. The Daily Reward Pool is 2% of the Rewards Account. The Rewards Account will grow until 50 days payout has been accrued and the daily Reward Pool amount becomes equal to the daily deposit amount.
 
 The daily reward pool is distributed to all votes regardless of whether the node wins the Super Representative election.
 
@@ -61,8 +61,6 @@ We predict an ebb and flow of votes from one Super Representative candidate, as 
 In fact, it has been noted that keeping all 100 Super Representative candidates rotating through Super Representative status will strengthen the network and provide the maximum amount of storage, and could in fact be a Tron Labs strategy for the network.
 
 We believe this process will only strengthen our position, since voters who have picked other losing candidates won’t be receiving any rewards. Their loyalty to their Super Representative candidate could be overcome when they see Community Node supporters receiving rewards even when our node loses the election.
-
-In essence, we would create a market for buying votes instead of rewarding them.
 
 To give you an idea of how our rewards system will work, if we win the first SR election with 100 million votes:
 
