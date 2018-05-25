@@ -18,13 +18,13 @@ And then I wondered,
 
 There won't be a seat at the table for any one of us, but perhaps there's one for all of us. Alone we each stand zero chance of winning an election, but together we can vote ourselves in.
 
-This is not a novel idea. Several other groups have formed with similar intentions, with different rewards plans being developed. Anticipating this, I have set this project apart from the others by proposing an **open source** structure for the management and ownership of the organization. While the others have proposed the creation of *private* non-profit organizations, the Tron Community Node Project is a proposal to create a *public* nonprofit. If you are searching for a proposal that will offer you the maximum payout for your vote, this may not be it. As a public nonprofit our commitment is to the public benefit.
+This is not a novel idea. Several other groups have formed with similar intentions, with different rewards plans being developed. Anticipating this, I have set this project apart from the others by proposing an **open source** structure for the management and ownership of the organization.
 
 To run a Super Representative node, the Tron Foundation recommends a technical budget of $40,000 per month - a substantial investment for a startup. I have devised a plan to bootstrap our operation and to start I am paying out of pocket for the server's introductory level operation.  I have a plan to scale the server size according to its growing predominance, and have already increased the provisioning twice. If elected to one of these exclusive Super Representative posts I will be able to scale up what I believe will be a reasonably acceptable server instance within 10 minutes.
 
 This will be my test for viability of the server.  If it succeeds, then we get to move on to the next phase of the plan. If it is woefully inadequate and fails to produce blocks when given the chance, then I will have lost a small sum and a considerable amount of time.
 
-If the node is successful in earning block rewards, we will implement a voter rewards program. Please take a moment to review our [Rewards Proposal](https://github.com/bondibox/community-node/tree/master/executive/rewards_plan.md).
+If the node is successful in earning block rewards, we will implement a voter rewards program. Please take a moment to review our [Rewards Proposal](https://github.com/bondibox/community-node/blob/master/doc/rewards_plan.md).
 
 In a nutshell, while some Super Representatives will choose to reward the voters who elected them, we will create a market for buying votes.
 
