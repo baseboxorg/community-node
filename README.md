@@ -49,10 +49,3 @@ Telegram:
 Twitter:
 [@community_node](https://twitter.com/community_node)
 
-
-
-
-
-The bigger Super Representative organizations own enough TRX to vote themselves to the position. The smaller Super Representatives must work a little harder for the votes.
-
-Every day these 27 Super Representatives will rotate through producing blocks, and earning the block rewards of 32 TRX per second.
