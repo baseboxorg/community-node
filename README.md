@@ -36,7 +36,7 @@ After these responsibilities have been met, we can open our treasury to the vote
 
 Our Mission is to become an intellectual asset for the community. The Tron project itself is open source, and we expect other cryptocurrencies to use the Tron application as a starting point for their blockchain networks. Other Distributed Proof of Stake cryptocurrencies may adopt Tron's Super Representative structure, and those Super Representatives will be creating organizations very similar to ours.
 
-We are indeed pioneers in a brave new world and many will follow in our footsteps. Let us light their way.
+We chose to make our project Open Source in order to provide a resource for those who come after us. We are indeed pioneers in a brave new world and many will follow in our footsteps. Let us light their way.
 
 You are encouraged to join us and become a part of our group. It's people just like you who we want to include in this effort. Thanks!
 
