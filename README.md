@@ -44,7 +44,7 @@ Website:
 [tron.communitynode.org](http://tron.communitynode.org)
 
 Telegram:
-[TRON Community Node & Super Representative](https://t.me/joinchat/IN2p-BFXGu8vByHn3qLyBg)
+[TRON Community Node & Super Representative](https://t.me/CommunityNode)
 
 Twitter:
 [@community_node](https://twitter.com/community_node)
