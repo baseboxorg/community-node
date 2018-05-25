@@ -14,11 +14,14 @@
 
 
 **`• Company information:`**  
-The Community Node organization is an application of open source collaboration in the blockchain space. We seek to extend the Super Representative's role in the distributed network into a quasi-decentralized system by passing our role through to our community members. The organization will have a staff of executives and technical personnel, but it will be guided by our community members through collaboration and the referendum process. By sharing our IT strategies, it is our hope to strengthen the entire blockchain industry and advance the determination of best practices. 
+The Community Node organization is an open source collaboration in the blockchain space. 
 
-Our Mission is to become an intellectual asset for the community. We are all pioneers in a brave new world, and many will follow in our footsteps. Community node believes we have a responsibility to help the ones who come after us, by leaving a well documented record or our endeavor.
+Our Mission is to become an intellectual asset for the community. The Tron project itself is open source, and we expect other cryptocurrencies to use the Tron application as a starting point for their blockchain networks. Other Distributed Proof of Stake cryptocurrencies may adopt Tron's Super Representative structure, and those Super Representatives will be creating organizations very similar to ours. We chose to make our project Open Source in order to provide a resource for those who come after us.
+
+By sharing our IT strategies, it is our hope to strengthen the entire blockchain industry and advance the determination of best practices. 
 
 
+**`• Company Location:`**  
 c/o Jason Neely  
 PO Box 39029  
 Washington DC  
@@ -31,7 +34,7 @@ Our movement is still young and we are actively trying to bring in new members.
 
 Community Node on Telegram: [TRON Community Node & Super Representative](https://t.me/joinchat/IN2p-BFXGu8vByHn3qLyBg)  
 Community Node on Twitter:  [@community_node](https://twitter.com/community_node)   
-Our network administrator is active on Reddit [r/tronix]((http://reddit.com/r/tronix)) where he has become a go-to authority on the main net.
+We are also active on Reddit [r/tronix]((http://reddit.com/r/tronix)).
 
 
 
@@ -67,8 +70,8 @@ https://www.youtube.com/watch?v=PW0mWR9tVkw
 
 
 **`• List of key staff and their photos`**  
-*CTO*				[Jason Neely](./jason_neely.jpg)    
-*WAN Strategist*	[Greg](./photos/xxxxx)    
+*CTO*				[Jason Neely](https://github.com/bondibox/community-node/blob/master/sr_application/jason_neely.jpg)    
+*WAN Strategist*	Greg  
 *dapp Education*		Colradi  
 
 
@@ -87,12 +90,8 @@ Application Education
 >  Colradi is a computer engineer in love with blockchain. He worked as an IT consultant and Java teacher for (too) many years in Madrid. Now he enjoys the inner peace of the mediterranean ocean, near Barcelona, and spends his days involved in a neverending Javascript project.
 
 
-
-
 **`• Testable nodes`**  
-[Full sync was reached](./number_one.png) on April 27 with 300+ blocks produced.
-
-
+[Full sync was reached](https://github.com/bondibox/community-node/blob/master/sr_application/number_one.png) on April 27 with 300+ blocks produced.
 
 
 **`• Location of Server:`**   
@@ -106,37 +105,39 @@ Cloud Based VM
 
 
 **`• Budget Expenditure and Technical Plan before June 26, 2018`**  
-Domain Registration CommunityNode.org	 $15  
-Super Representative Application Fee	 100,000 TRX  
-May 1 - May 28 alpha configuration		 $20  
-May 29 - June 26 beta configuration		 $200  
+$15          	. . .		Domain Registration CommunityNode.org  
+$20          	. . .		 May 1 - May 28 alpha configuration  
+$200         	. . .		 May 29 - June 26 beta configuration  
+100,000 TRX  	. . .		 Super Representative Application Fee  
 									------------------  
-Total expenses May 1 - June 26 = $235 + 100,000 TRX
+$235 + 100,000 TRX = Total expenses May 1 - June 26
+
+
 
 The recommended configuration is an Amazon AWS x1.16xlarge with 25 Gbps network i/o but we have found a hosting service with a OC768 incoming network connection, offering 40 Gbps in and 10 Gbps out. We believe that the incoming network connection will be critical for the Super Representative nodes, and the outbound connection will be used more with the Full Nodes. Therefore we believe there exists the potential for this service to be superlative to the de facto standard.
 
-The largest configuration available at this host is 16 core / 200 GB RAM. We are currently building a cluster of server instances running in parallel. We can re-provision our cluster to the higher configuration in 10 minutes, and we can also add more server instances to the cluster for nearly unlimited resources. 
-
-Our initial production deployment of 10x instances will give us a total of 160 cores, 2 TB RAM, and 3.4 TB SSD.
-
-We will compare this against AWS and will use whichever service performs better.
+The largest configuration available at this host is 16 core / 200 GB RAM. We will compare this against AWS and will use whichever service performs better.
 
 
 **`• Plans for hardware expansion`**  
 
-Our first goal is to separate each server instance's storage from the host and combine them in a RAID 5 striped array.
 
-We will deploy Full nodes on AWS which has a higher outbound network connection than our main node will employ.
+We are currently researching the building of a cluster of server instances running in parallel for nearly unlimited resources, as well as adding docker, kubernetes, and hadoop replication and deployment services.
+
+Since AWS has a higher outbound network connection than our main node, we will deploy Full nodes on AWS as data slaves.
 
 
+**`• Budget expenses after June 26`**  
+$4,140  		. . .		June 27 - June 30 Production level I  
+$ ? 			. . .		Automation & Replication Specialist  
+$ ? 			. . .		Network Security Specialist  
+$237,600	  	. . .		July 1 - December 31 Production level II  
+10,240 TRX  	. . .		Promotional contest  
+20,000 TRX		. . .		Colradi task bonus  
+500,000 TRX		. . .		Jason Neely salary from June 27 - December 31 (2.6%)  
+? TRX				. . .		Other Contests and Promotions  
 
-**`• Budget expenses`**  
-June 27 - June 30 Production level II $4,140  
-July 1 - December 31 Production level III $2,376,000  
-Promotional contest 10,240 trx  
-
-Using Tron Labs recommended configuration and budget, an estimate of 3 PiB of monthly data transfer is achieved, for which we pay .02¢ per GB, or roughly $1,000 per day. Our per-instance rate of $960 brings the total monthly cost to $39,600.
-
+$241,720 + 520,000 TRX = Total Expenses from June 27 - December 31 2018 
 
 Salaries are per annum maximums from June 27 - December 31 and will be based on the percentage of block participation.*  
 
@@ -155,43 +156,38 @@ Colradi < 20,000 TRX paid upon completion of achievement levels:
 
 
 
-
-
 ### ***`DETAILED HARDWARE CONFIGURATIONS`***  
 
 
 #### ALPHA CONFIGURATION  
-40 		Gbps Network In    
-1 		Gbps Network Out    
-
 Debian GNU/Linux 9.1 (stretch) 4.15.12-x86_64  
 2500 MHz Intel(R) Celeron(R) M processor  
 4	 	GB RAM    
 2 		CPU Cores    
 46 		GB SSD Storage    
 2256	SWAP  
-
-
-
-#### BETA CONFIGURATION  
-
-10x 	4	 	GB RAM    
-10x		2 		CPU Cores    
-10x 	46 		GB SSD Storage    
-10x 	2256	SWAP  
-
 40 		Gbps Network In    
 1 		Gbps Network Out    
 
 
 
+#### BETA CONFIGURATION  
+
+24 		GB RAM  
+8	 	CPU Cores  
+2		GB Swap  
+384 	GB SSD Storage  
+40	 	Gbps Network In  
+2	 	Gbps Network Out  
+
+
+
 #### PRODUCTION LEVEL I CONFIGURATION  
 
-10x		200 	GB RAM    
-10x		16 		CPU Cores        
-10x		2+		TB SSD Storage  
-10x		2		GB Swap  
-
+200 	GB RAM    
+16 		CPU Cores        
+2+		TB SSD Storage  
+2		GB Swap  
 40 		Gbps Network In    
 10 		Gbps Network Out    
 

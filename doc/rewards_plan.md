@@ -43,7 +43,7 @@ R = Base Rate (payout / votes: for the first 30 days, then uses 30 day averages)
 D = Daily reward per voting address: M x V x R  
 
 
-The M multiplier formula is designed to gradually increase the rate for addresses who have a lifetime history of casting votes and total votes cast. It increases with every day that votes are cast, i.e. after 400 days the yield will be approximately twice the introductory rate.
+The M multiplier formula is designed to gradually increase the rate for addresses who have a lifetime history of casting votes and total votes cast. It increases with every day that votes are cast, e.g. after 400 days the yield will be approximately twice the introductory rate.
 
 The E component of the M multiplier increases once the address has exceeded 10,000,000 lifetime votes, and caps out after approximately doubling the rate (that cap is based on 260 billion lifetime votes possible). 
 
@@ -97,32 +97,5 @@ and their rewards per vote:
 1.18 x 0.0009 = 0.001062 TRX  
 
 which is 38.76%, and 18% more than the introductory rate.
-
-
-2018 Budgeted Expenses 
-             			
-$15          	. . .		Domain Registration CommunityNode.org  
-$20          	. . .		 May 1 - May 28 alpha configuration  
-$200         	. . .		 May 29 - June 26 beta configuration  
-$4,140  		. . .		June 27 - June 30 Production level II  
-$ . 			. . .		Automation & Replication Specialist  
-$ . 			. . .		Network Security Specialist  
-$237,600	  	. . .		July 1 - December 31 Node  
-100,000 TRX  	. . .		 Super Representative Application Fee  
-10,240 TRX  	. . .		Promotional contest  
-20,000 TRX		. . .		Colradi task bonus  
-500,000 TRX		. . .		Jason Neely salary from June 27 - December 31 (2.6%)  
-?				. . .		Other Contests and Promotions  
-
-
-2019 Budgeted Expenses
-
-$475,000		  . . . 	Annual SR Node  
-$500,000		  . . . 	Full Nodes  
-$15          	  . . . 	Domain Registration CommunityNode.org  
-750,000 TRX		  . . . 	Jason Neely salary from Jan 1 - December 31 (2.0%)  
-2,000,000 TRX	  . . . 	Other expenses (staff, office, legal, transportation, etc)  
-?				  . . . 	Contests and Promotions  
-?				  . . . 	Reinvestment Program (2nd token airdrop)  
 
 
