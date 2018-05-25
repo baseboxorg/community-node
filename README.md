@@ -1,11 +1,11 @@
 # The TRON Community Node Project
 
 
-On May 31, 2018, Tron Labs will launch the Main Net and thus transition the TRX cryptocurrency away from the Ethereum blockchain to one managed by Tron Labs.
+On May 31, 2018, Tron Labs will launch the Main Net and thus transition the TRX cryptocurrency away from the Ethereum blockchain to one managed by Tron Labs. Beginning On June 25th, the TRX coinholders will vote in daily elections to choose 27 organizations to run their blockchain network. These organizations will become Super Representatives who operate computer servers called 'nodes.'
 
-This new network will be supported by nodes, and 27 of those nodes will be **elected** by the TRX coinholders to be Super Representatives, and produce blocks. The bigger Super Representative organizations own enough TRX to vote themselves to the position. The smaller Super Representatives must work a little harder for the votes.
+Tron Labs will pay these nodes 32 TRX coins for every block of data produced. The 27 nodes will take turns creating these blocks at the rate of 1 per second, or about 2 blocks each per minute.
 
-Every day these 27 Super Representatives will rotate through producing blocks, and earning the block rewards of 32 TRX per second. That's a little more than 2,750,000 TRX per day at an average of about 100,000 TRX per Super Representative.
+That's a little more than 2,750,000 TRX per day at an average of about 100,000 TRX per Super Representative.
 
 The Super Representatives will earn TRX daily, but in order to maintain elected power those Super Representatives must provide benefits to the TRX voters who elected them. In addition to benefitting the Tron community with support initiatives, a Super Representative may wish to share its rewards directly with the TRX voters who elect it every day. 
 
@@ -22,39 +22,21 @@ This is not a novel idea. Several other groups have formed with similar intentio
 
 To run a Super Representative node, the Tron Foundation recommends a technical budget of $40,000 per month - a substantial investment for a startup. I have devised a plan to bootstrap our operation and to start I am paying out of pocket for the server's introductory level operation.  I have a plan to scale the server size according to its growing predominance, and have already increased the provisioning twice. If elected to one of these exclusive Super Representative posts I will be able to scale up what I believe will be a reasonably acceptable server instance within 10 minutes.
 
-One day of earning would make one week's operation of the server financially self sufficient.
+This will be my test for viability of the server.  If it succeeds, then we get to move on to the next phase of the plan. If it is woefully inadequate and fails to produce blocks when given the chance, then I will have lost a small sum and a considerable amount of time.
 
-This will be my test for viability of the server.  If it succeeds, then I get to move on to the next phase of the plan. If it is woefully inadequate and fails to produce blocks when given the chance, then I will have lost a small sum and a considerable amount of time.
+If the node is successful in earning block rewards, we will implement a voter rewards program. Please take a moment to review our [Rewards Proposal](https://github.com/bondibox/community-node/tree/master/executive/rewards_plan.md).
 
-The next phase of this plan begins with the creation of a TRX-20 token, the TRON Groupsource Node Token (TGNT). This token will be sold to supporters of our organization and will create a mechanism for rewarding their TRX votes, as well as for allowing them to participate in the operation of the organization.
-
-Please take a moment to review our [Rewards Proposal](https://github.com/bondibox/community-node/tree/master/executive/rewards_plan.md).
-
-In a nutshell, we will offer to create a fungible market for the TGNT token, tethered on a 1:1 ratio with TRX. TRX holders who wish to support the organization can exchange TRX for TGNT. The TGNT rewards system will be based on the length of investment. Those who get in earliest, and keep their TRX with us, will get the highest rewards. Newcomers to the token will be on a lower pay tier. At the end of every quarter, we will begin a new tier for newcomers and current TGNT holders will ascend to the next rewards tier. You may divest from TGNT at any time at the guaranteed 1:1 ratio with TRX.
-
-As principals of the TGNT organization, TGNT owners will have voting rights. The primary question for token referendums will be the amount of rewards per rewards tier. 
+In a nutshell, while some Super Representatives will choose to reward the voters who elected them, we will create a market for buying votes.
 
 The organization will have several responsibilities, both social and financial. Primarily it must maintain a reliable Full Node on the TRON blockchain. After core expenses are met, the community has several long-term considerations. 
 
 The Tron ecosystem will rely on application developers to create a need for TRX coins. Without applications, our investment in TRX will languish and become worthless. As partners in the Tron foundation, a Super Representative must be proactive in developing the Tron community through advocacy, advertisement, and applications. Spending money on these initiatives is not altruism, it is a self-serving gesture for the benefit of all TRX coinholders. We will prioritize the development of these initiatives in the early days of Tron main net so as to drive excitement and public awareness for the project.
 
-After these responsibilities have been met, we can open our treasury to the TGNT voters who make it possible for us to continue operations, sending them TRX rewards as a dividend for their investment.
+After these responsibilities have been met, we can open our treasury to the voters who make it possible for us to continue operations, sending them TRX rewards as a dividend for their participation.
 
-TGNT will empower token holders with more than just the management of the organization. One of the roles of Super Representative will be 
+Our Mission is to become an intellectual asset for the community. The Tron project itself is open source, and we expect other cryptocurrencies to use the Tron application as a starting point for their blockchain networks. Other Distributed Proof of Stake cryptocurrencies may adopt Tron's Super Representative structure, and those Super Representatives will be creating organizations very similar to ours.
 
->To Influence Up to Date and Applicable Business Direction Decisions
-
-Questions facing the Super Representative could be:
-
-> Ecosystem fee and block verification processes  
-> Possible Project Partners or Vote for Partnership  
-> Intended Market Demographics, Industries for Expansion    
-> Changes to Protocol Specific Policy, Procedure or Technology    
-> Updates or Creation of Bounties, Campaigns or Incentives  
-  
-Token holders will participate in quarterly elections to select corporate officers and the Board of Directors. The executives of the organization (President, CEO, CTO, CFO) along with the board of directors will directly hire the remaining staff.
-
-Our Mission is to become an intellectual asset for the community. We are pioneers in a brave new world, many will follow in our footsteps. Let us light their way.
+We are indeed pioneers in a brave new world and many will follow in our footsteps. Let us light their way.
 
 You are encouraged to join us and become a part of our group. It's people just like you who we want to include in this effort. Thanks!
 
@@ -67,3 +49,10 @@ Telegram:
 Twitter:
 [@community_node](https://twitter.com/community_node)
 
+
+
+
+
+The bigger Super Representative organizations own enough TRX to vote themselves to the position. The smaller Super Representatives must work a little harder for the votes.
+
+Every day these 27 Super Representatives will rotate through producing blocks, and earning the block rewards of 32 TRX per second.
