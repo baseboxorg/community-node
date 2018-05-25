@@ -12,7 +12,7 @@ We believe this is a naive miscalculation. It would not be forthcoming if the or
 
 Because the reward is what's left over after expenses are met, part time status severely limits the reward. We are afraid that after attaining part time SR status, which is a significant achievement, we would lose our support due to disappointing the voters who had built up unrealistic expectations about quick returns.
 
-Our business plan is built around the contingency that we may not get elected as SR every day, or even for some time. Once the other SR’s fail to get elected one day, their rewards program will break down and to make up for lost revenue they will have to lower the reward the next time they win. Instead of gaining momentum, we foresee a catastrophic exodus of support from these programs who overpromised rewards for votes.
+Our business plan is built around the contingency that we may not get elected as SR every day, or even for some time. Once the other SR’s fail to get elected one day, their rewards program will break down and to make up for lost revenue they will have to lower the reward the next time they win, or else lower their promises of community support and become a purely capitalistic enterprise. Instead of gaining momentum, we foresee an exodus of support from these programs when their voters decide there's been a bait and switch.
 
 One of our aims is to create stability within the organization and consistency around the rewards payout. To further this aim we will accrue a payout reserve that will let us give a guaranteed, advertised rate of return, recalculated daily with minimal fluctuation.
 
@@ -24,7 +24,7 @@ The daily reward pool is distributed to all votes regardless of whether the node
 
 Rewards per vote are calculated by taking the total daily payout and dividing by the total number of votes. 
 
-An extra participation reward multiplier, M, is calculated from the number of days they have voted for us, and the lifetime number of votes cast for Community Node. The formula for this is the number of days the account has voted for community node, divided by 2000, plus the natural log of the lifetime votes minus 16 divided by 20, plus 1, squared.
+An extra participation reward multiplier, M, is calculated from the number of days an address has voted for us, and the lifetime number of votes cast for Community Node. The formula for this is the number of days the address has voted for community node, divided by 2000, plus the natural log of the lifetime votes minus 16 divided by 20, plus 1, squared.
 
 The vote rewards base rate R provides adjustments for overpayments. The previous day's reward pool is measured against the previous day's actual payout and then the base rate is recalculated accordingly.
 
@@ -48,7 +48,7 @@ The M multiplier formula is designed to gradually increase the rate for addresse
 The E component of the M multiplier increases once the address has exceeded 10,000,000 lifetime votes, and caps out after approximately doubling the rate (that cap is based on 260 billion lifetime votes possible). 
 
 M = [(1 + N/2000) + E] ^2  
-E = (ln T - 16 / 20)] IFF E > 0 and T =/= 0
+E = [(ln T - 16) / 20] IFF E > 0 and T =/= 0
 
 The goal of the rewards plan is to encourage heavy participation early on, and continued participation in the long term. If I were a whale my strategy would be to start off with 10+ million votes in order to get the E component of the formula started on day one, and add 5k votes per day after that to build the M component.
 
