@@ -9,20 +9,13 @@ That's a little more than 2,750,000 TRX per day at an average of about 100,000 T
 
 The Super Representatives will earn TRX daily, but in order to maintain elected power those Super Representatives must provide benefits to the TRX voters who elected them. In addition to benefitting the Tron community with support initiatives, a Super Representative may wish to share its rewards directly with the TRX voters who elect it every day. 
 
-I am already running a cloud based node on the test net, with a focus on uptime and reliability. I hope to meet the performance levels sufficient to get my node voted into the group of candidates for Super Representative, after which the node may or may not enter rotation as an earning Super Representative. 
+We have formed a group of people to participate in one of these Super Representative organizations. Several other groups have formed with similar intentions, with different rewards plans being developed. Anticipating this, we have set this project apart from the others by proposing an **open source** structure for the management and ownership of the organization.
 
-Originally I had welcomed the notion of taking a seat at the table next to other members of the TRON community, then I realized there probably won't be room for even one of us. 
+To run a Super Representative node, the Tron Foundation recommends a technical budget of $40,000 per month - a substantial investment for a startup. I have devised a plan to bootstrap our operation and to start I am paying out of pocket for the server's introductory level operation.  I have a plan to scale the server size according to its growing predominance, and have already increased the provisioning twice. If we are elected to one of these exclusive Super Representative posts I will be able to scale up what I believe will be a reasonably acceptable server instance within 10 minutes.
 
-And then I wondered, 
->'Since a TRON Network Super Representative is actually a collection of people backed by an organization, what if the members of the Reddit, Twitter, and YouTube community banded together to become a Super Representative?' 
+This will be our test for viability of the server.  If it succeeds, then we get to move on to the next phase of the plan. If it is woefully inadequate and fails to produce blocks when given the chance, then I will have lost a small sum and a considerable amount of time.
 
-There won't be a seat at the table for any one of us, but perhaps there's one for all of us. Alone we each stand zero chance of winning an election, but together we can vote ourselves in.
-
-This is not a novel idea. Several other groups have formed with similar intentions, with different rewards plans being developed. Anticipating this, I have set this project apart from the others by proposing an **open source** structure for the management and ownership of the organization.
-
-To run a Super Representative node, the Tron Foundation recommends a technical budget of $40,000 per month - a substantial investment for a startup. I have devised a plan to bootstrap our operation and to start I am paying out of pocket for the server's introductory level operation.  I have a plan to scale the server size according to its growing predominance, and have already increased the provisioning twice. If elected to one of these exclusive Super Representative posts I will be able to scale up what I believe will be a reasonably acceptable server instance within 10 minutes.
-
-This will be my test for viability of the server.  If it succeeds, then we get to move on to the next phase of the plan. If it is woefully inadequate and fails to produce blocks when given the chance, then I will have lost a small sum and a considerable amount of time.
+Our first priority will be forming a registered non profit foundation to run the organization. 
 
 If the node is successful in earning block rewards, we will implement a voter rewards program. Please take a moment to review our [Rewards Proposal](https://github.com/bondibox/community-node/blob/master/doc/rewards_plan.md).
 
