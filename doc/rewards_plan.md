@@ -84,7 +84,7 @@ If the node wins the SR election until the Rewards Account is fully funded, the 
 
 Putting all this information together we get the case of someone who has cast 200 million votes in 100 elections. They will have a multiplier M: 
 
-M = 1 + 100/2000 + [(ln 200,000,000 - 16) / 20] = 1 + 0.05 + 0.1556913962256 
+M = 1 + 100/2000 + [(ln 200,000,000 - 16) / 20] = 1 + 0.05 + 0.1556913962256  
 M = 1.2057
 
 Making their rewards about 20% more than the introductory rate.
