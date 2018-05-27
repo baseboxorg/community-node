@@ -27,7 +27,7 @@ The Tron ecosystem will rely on application developers to create a need for TRX 
 
 After these responsibilities have been met, we can open our treasury to the voters who make it possible for us to continue operations, sending them TRX rewards as a dividend for their participation.
 
-Our Mission is to become an intellectual asset for the community. The Tron project itself is open source, and we expect other cryptocurrencies to use the Tron application as a starting point for their blockchain networks. Other Distributed Proof of Stake cryptocurrencies may adopt Tron's Super Representative structure, and those Super Representatives will be creating organizations very similar to ours.
+Our Mission is to become an intellectual asset for the community. We expect other cryptocurrencies to use Tron's open source application as a starting point for their blockchain networks, as well as Tron's Super Representative structure, and those Super Representatives will be creating organizations very similar to ours.
 
 We chose to make our project Open Source in order to provide a resource for those who come after us. We are indeed pioneers in a brave new world and many will follow in our footsteps. Let us light their way.
 
