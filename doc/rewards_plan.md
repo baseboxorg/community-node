@@ -24,7 +24,7 @@ The daily reward pool is distributed to all votes regardless of whether the node
 
 Rewards per vote are calculated by taking the total daily payout and dividing by the total number of votes. 
 
-An extra participation reward multiplier, M, is calculated from the number of days an address has voted for us, and the lifetime number of votes cast for Community Node. The formula for this is the number of days the address has voted for community node, divided by 2000, plus the natural log of the lifetime votes minus 16 divided by 20, plus 1, squared.
+An extra participation reward multiplier, M, is calculated from the number of days an address has voted for us, and the lifetime number of votes cast for Community Node. The formula for this is the number of days the address has voted for community node, divided by 2000, plus the natural log of the lifetime votes minus 16, divided by 20, plus 1, squared.
 
 The vote rewards base rate R provides adjustments for overpayments. The previous day's reward pool is measured against the previous day's actual payout and then the base rate is recalculated accordingly.
 
@@ -36,16 +36,16 @@ N = number of days address has voted for community node
 T = number of votes address has cast for community node over its lifetime  
 A = Daily total of all votes for Community Node  
 P = Daily payout for Community Node Voters  
-E = (ln T - 16 / 20)] IFF E > 0 and T =/= 0  
+E = (ln T - 16 / 20)] where T > 0 and E > 0  
 M = [(1 + N/2000) + E] ^2  
 V = Votes cast for us today by this address  
-R = Base Rate (payout / votes: for the first 30 days, then uses 30 day averages)  
+R = Base Rate (payout / votes)  
 D = Daily reward per voting address: M x V x R  
 
 
 The M multiplier formula is designed to gradually increase the rate for addresses who have a lifetime history of casting votes and total votes cast. It increases with every day that votes are cast, e.g. after 400 days the yield will be approximately twice the introductory rate.
 
-The E component of the M multiplier increases once the address has exceeded 10,000,000 lifetime votes, and caps out after approximately doubling the rate (that cap is based on 260 billion lifetime votes possible). 
+The E component of the M multiplier increases once the address has exceeded 10,000,000 lifetime votes, and caps out after approximately doubling the rate. 
 
 M = [(1 + N/2000) + E] ^2  
 E = [(ln T - 16) / 20] IFF E > 0 and T =/= 0
@@ -64,7 +64,7 @@ We believe this process will only strengthen our position, since voters who have
 
 To give you an idea of how our rewards system will work, if we win the first SR election with 100 million votes:
 
-The Rewards Account will get about 90,000 TRX deposited into it. Normally, the daily rewards pool would be 2% of that, but while the program is young we need to boost the payout to keep it in line with what the other SR's will be issuing. A daily minimum will be set to make the Rewards Pool 50% of the amount deposited into the Rewards Account, making the payout on day one 45,000 TRX. The base rate for the first day is 0.00045 TRX per vote.
+The Rewards Account will get about 90,000 TRX deposited into it. Normally, the daily rewards pool would be 2% of that, but while the program is young we need to boost the payout to keep it in line with what the other SR's will be issuing. A daily minimum will be set to make the Rewards Pool at least 50% of the amount deposited into the Rewards Account, making the payout on day one 45,000 TRX. The base rate for the first day is 0.00045 TRX per vote.
 
 On the first day someone votes for us, they start with a Multiplier of 1 because the number of days they have voted for us is zero, which divided by 2000 is zero, added to one is one, and squared is still one.
 
@@ -72,7 +72,7 @@ If we lose the second SR election, the day two payout will be equal to day one, 
 
 If we win the second SR election with 100 million votes:
 
-The Rewards Account now has 135,000 TRX in it. The daily rewards pool will be either 2% of the Rewards Account (2,700 TRX), or 50% of the amount deposited into the Rewards Account that day (45,000 TRX), whichever is greater. The base rate for the second day is also 0.00045 TRX per vote.
+The Rewards Account now has 135,000 TRX in it. The daily rewards pool will be either 2% of the Rewards Account (2,700 TRX), or 50% of the amount deposited into the Rewards Account that day (45,000 TRX), whichever is greater. For the second day, the base rate will also be 0.00045 TRX per vote.
 
 On the second day, everyone who cast at least 5,000 votes the previous day will have a lifetime vote total T = 1. Their Multiplier M will be:
 
@@ -84,18 +84,15 @@ They will receive 1.001 x 0.00045 = 0.00045045 TRX per vote
 
 Since they are receiving more than the base rate, on the third day we have to compensate by adjusting the base rate. We do this by dividing the intended amount for payout for all votes on day 2 by the total payout, and multiplying that fraction times the base rate.
 
-If the node wins the SR election until the Rewards Account is fully funded, the Daily Rewards Pool will be 90,000 TRX. If the average daily votes is 100 million like it was on the first couple days, the base rate will be 0.0009 per TRX (*not adjusted base rate).
+If the node wins the SR election until the Rewards Account is fully funded, the Daily Rewards Pool will be 90,000 TRX. If the average daily votes ends up being 500 million, the base rate will be 0.00018 per TRX (*not adjusted base rate).
 
 Putting all this information together we get the case of someone who has cast 200 million votes in 100 elections. They will have a multiplier M: 
 
 M = 1 + 100/2000 + [(ln 200,000,000 - 16) / 20] = 1 + 0.05 + 0.1556913962256 
 M = 1.2057
 
+and their rewards will be about 20% more than the introductory rate:
 
-and their rewards per vote:
+1.2057 x 0.00018 = 0.000217 TRX per vote
 
-1.2057 x 0.0009 = 0.001085 TRX  
-
-which is 39.6%, and about 20% more than the introductory rate.
-
-
+which works out to 8% annual rate. 
