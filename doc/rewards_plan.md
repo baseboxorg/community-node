@@ -91,7 +91,9 @@ Putting all this information together we get the case of someone who has cast 20
 M = 1 + 100/2000 + [(ln 200,000,000 - 16) / 20] = 1 + 0.05 + 0.1556913962256 
 M = 1.2057
 
-and their rewards will be about 20% more than the introductory rate:
+Making their rewards about 20% more than the introductory rate.
+
+Using 500 million average daily votes, the reward for this voter will be:
 
 1.2057 x 0.00018 = 0.000217 TRX per vote
 
