@@ -10,7 +10,7 @@ All of the other Super Representatives' rewards plans assume that full-time stat
 
 We believe this is a naive miscalculation. It would not be forthcoming if the organizers had considered this possibilty and decided not to include it in their business plan.
 
-Our business plan is built around the contingency that we may not get elected as SR every day. Once the other SR’s fail to get elected one day, their rewards program will break down and to make up for lost revenue they will have to lower the reward the next time they win, or else lower their promises of community support and become a purely capitalistic enterprise. Instead of gaining momentum, we foresee an exodus of support from these programs when their voters decide there's been a bait and switch.
+Our business plan is built around the contingency that we may not get elected as SR every day. Once the other SR’s fail to get elected one day, their rewards program will break down and to make up for lost revenue they will have to lower the reward the next time they win, or else lower their promises of community support and become a purely capitalistic enterprise. Instead of gaining momentum, we foresee an exodus of support from these programs when their voters realize there's been a bait and switch.
 
 One of our aims is to create stability within the organization and consistency around the rewards payout. To further this aim we will accrue a payout reserve that will let us give a guaranteed, advertised rate of return, recalculated daily with minimal fluctuation.
 
@@ -32,8 +32,6 @@ After the first 30 days, rewards per vote will be calculated using 30 day averag
 
 N = number of days address has voted for community node  
 T = number of votes address has cast for community node over its lifetime  
-A = Daily total of all votes for Community Node  
-P = Daily payout for Community Node Voters  
 E = (ln T - 16 / 20)] where T > 0 and E > 0  
 M = [(1 + N/2000) + E] ^2  
 V = Votes cast for us today by this address  
