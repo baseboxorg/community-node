@@ -10,9 +10,7 @@ All of the other Super Representatives' rewards plans assume that full-time stat
 
 We believe this is a naive miscalculation. It would not be forthcoming if the organizers had considered this possibilty and decided not to include it in their business plan.
 
-Because the reward is what's left over after expenses are met, part time status severely limits the reward. We are afraid that after attaining part time SR status, which is a significant achievement, we would lose our support due to disappointing the voters who had built up unrealistic expectations about quick returns.
-
-Our business plan is built around the contingency that we may not get elected as SR every day, or even for some time. Once the other SR’s fail to get elected one day, their rewards program will break down and to make up for lost revenue they will have to lower the reward the next time they win, or else lower their promises of community support and become a purely capitalistic enterprise. Instead of gaining momentum, we foresee an exodus of support from these programs when their voters decide there's been a bait and switch.
+Our business plan is built around the contingency that we may not get elected as SR every day. Once the other SR’s fail to get elected one day, their rewards program will break down and to make up for lost revenue they will have to lower the reward the next time they win, or else lower their promises of community support and become a purely capitalistic enterprise. Instead of gaining momentum, we foresee an exodus of support from these programs when their voters decide there's been a bait and switch.
 
 One of our aims is to create stability within the organization and consistency around the rewards payout. To further this aim we will accrue a payout reserve that will let us give a guaranteed, advertised rate of return, recalculated daily with minimal fluctuation.
 
