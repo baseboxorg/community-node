@@ -28,7 +28,7 @@ The vote rewards base rate R provides adjustments for overpayments. The previous
 
 The daily rewards payout will be disbursed 3 days after the vote has been cast.
 
-After the first 30 days, rewards per vote will be calculated using 30 day averages of votes per day. This will give our supporters a predictable payout for the next day.
+After the first 30 days, rewards per vote will be calculated using 30 day averages of votes per day. This will give our supporters a predictable payout for the next day, and allow us to advertise a guaranteed rate for that day's votes.
 
 N = number of days address has voted for community node  
 T = number of votes address has cast for community node over its lifetime  
