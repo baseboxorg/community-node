@@ -16,13 +16,13 @@ One of our aims is to create stability within the organization and consistency a
 
 We can then initiate a program where every vote is rewarded regardless of whether we win the Super Representative election that day. Essentially, we would create a market for buying votes instead of rewarding them.
 
-As our node wins the Super Representative election, 90% of block rewards will be deposited into the Rewards Account. The Daily Reward Pool is 2% of the Rewards Account. The Rewards Account will grow until 50 days payout has been accrued and the daily Reward Pool amount becomes equal to the daily deposit amount.
+As our node wins the Super Representative election, 80% of block rewards will be deposited into the Rewards Account. The Daily Reward Pool is 2% of the Rewards Account. The Rewards Account will grow until 50 days payout has been accrued and the daily Reward Pool amount becomes equal to the daily deposit amount.
 
 The daily reward pool is distributed to all votes regardless of whether the node wins the Super Representative election.
 
 Rewards per vote are calculated by taking the total daily payout and dividing by the total number of votes. 
 
-An extra participation reward multiplier, M, is calculated from the number of days an address has voted for us, and the lifetime number of votes cast for Community Node. The formula for this is the number of days the address has voted for community node, divided by 2000, plus the natural log of the lifetime votes minus 16, divided by 20, plus 1, squared.
+An extra participation reward multiplier, M, is calculated from the number of days an address has voted for us, and the lifetime number of votes cast for Community Node. The formula for this (*Neely's formula*) is the number of days the address has voted for community node, divided by 2000, plus the natural log of the lifetime votes minus 16, divided by 20, plus 1, squared.
 
 The vote rewards base rate R provides adjustments for overpayments. The previous day's reward pool is measured against the previous day's actual payout and then the base rate is recalculated accordingly.
 
@@ -60,7 +60,7 @@ We believe this process will only strengthen our position, since voters who have
 
 To give you an idea of how our rewards system will work, if we win the first SR election with 100 million votes:
 
-The Rewards Account will get about 90,000 TRX deposited into it. Normally, the daily rewards pool would be 2% of that, but while the program is young we need to boost the payout to keep it in line with what the other SR's will be issuing. A daily minimum will be set to make the Rewards Pool at least 50% of the amount deposited into the Rewards Account, making the payout on day one 45,000 TRX. The base rate for the first day is 0.00045 TRX per vote.
+The Rewards Account will get about 80,000 TRX deposited into it. Normally, the daily rewards pool would be 2% of that, but while the program is young we need to boost the payout to keep it in line with what the other SR's will be issuing. A daily minimum will be set to make the Rewards Pool at least 50% of the amount deposited into the Rewards Account, making the payout on day one 40,000 TRX. The base rate for the first day is 0.0004 TRX per vote.
 
 On the first day someone votes for us, they start with a Multiplier of 1 because the number of days they have voted for us is zero, which divided by 2000 is zero, added to one is one, and squared is still one.
 
@@ -68,7 +68,7 @@ If we lose the second SR election, the day two payout will be equal to day one, 
 
 If we win the second SR election with 100 million votes:
 
-The Rewards Account now has 135,000 TRX in it. The daily rewards pool will be either 2% of the Rewards Account (2,700 TRX), or 50% of the amount deposited into the Rewards Account that day (45,000 TRX), whichever is greater. For the second day, the base rate will also be 0.00045 TRX per vote.
+The Rewards Account now has 120,000 TRX in it. The daily rewards pool will be either 2% of the Rewards Account (2,400 TRX), or 50% of the amount deposited into the Rewards Account that day (40,000 TRX), whichever is greater. For the second day, the base rate will also be 0.0004 TRX per vote.
 
 On the second day, everyone who cast at least 5,000 votes the previous day will have a lifetime vote total T = 1. Their Multiplier M will be:
 
@@ -76,11 +76,11 @@ E = 0 (because ln T - 16 is negative)
 M = (1/2000 + 1) ^2  
 M = 1.001  
 
-They will receive 1.001 x 0.00045 = 0.00045045 TRX per vote
+They will receive 1.001 x 0.0004 = 0.0004004 TRX per vote
 
 Since they are receiving more than the base rate, on the third day we have to compensate by adjusting the base rate. We do this by dividing the intended amount for payout for all votes on day 2 by the total payout, and multiplying that fraction times the base rate.
 
-If the node wins the SR election until the Rewards Account is fully funded, the Daily Rewards Pool will be 90,000 TRX. If the average daily votes ends up being 500 million, the base rate will be 0.00018 per TRX (*not adjusted base rate).
+If the node wins the SR election until the Rewards Account is fully funded, the Daily Rewards Pool will be 80,000 TRX. If the average daily votes ends up being 500 million, the base rate will be 0.00016 per TRX (*not adjusted base rate).
 
 Putting all this information together we get the case of someone who has cast 200 million votes in 100 elections. They will have a multiplier M: 
 
@@ -91,6 +91,6 @@ Making their rewards about 20% more than the introductory rate.
 
 Using 500 million average daily votes, the reward for this voter will be:
 
-1.2057 x 0.00018 = 0.000217 TRX per vote
+1.2057 x 0.00016 = 0.000193 TRX per vote
 
-which works out to 8% annual rate. 
+which works out to 7% annual rate, or 7.25% if compounded daily.
