@@ -6,7 +6,7 @@
 |Location of company| Washington D.C. |
 |Expected location of servers| Atlanta GA |
 |Server type| Cloud VM |
-|Expenditure budget and technical plan| $235 + 9,999 TRX = Total expenses May 1 - June 26  | 24 		GB RAM  * 8	 	CPU Cores  • 40	 	Gbps Network In  • 2	 	Gbps Network Out  |
+|Expenditure budget and technical plan| $235 + 9,999 TRX = Total expenses May 1 - June 26  * 24 		GB RAM  * 8	 	CPU Cores  • 40	 	Gbps Network In  • 2	 	Gbps Network Out  |
 
 
 |Hardware capacity upgrade plan|
