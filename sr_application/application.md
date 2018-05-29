@@ -108,15 +108,15 @@ Cloud Based VM
 $15          	. . .		Domain Registration CommunityNode.org  
 $20          	. . .		 May 1 - May 28 alpha configuration  
 $200         	. . .		 May 29 - June 26 beta configuration  
-100,000 TRX  	. . .		 Super Representative Application Fee  
+9,999 TRX  	. . .		 Super Representative Application Fee  
 									------------------  
-$235 + 100,000 TRX = Total expenses May 1 - June 26
+$235 + 9,999 TRX = Total expenses May 1 - June 26
 
 
 
 The recommended configuration is an Amazon AWS x1.16xlarge with 25 Gbps network i/o but we have found a hosting service with a OC768 incoming network connection, offering 40 Gbps in and 10 Gbps out. We believe that the incoming network connection will be critical for the Super Representative nodes, and the outbound connection will be used more with the Full Nodes. Therefore we believe there exists the potential for this service to be superlative to the de facto standard.
 
-The largest configuration available at this host is 16 core / 200 GB RAM. We will compare this against AWS and will use whichever service performs better.
+The largest configuration available at this host is 32 core / 196 GB RAM. We will compare this against AWS and will use whichever service performs better.
 
 
 **`• Plans for hardware expansion`**  
@@ -184,8 +184,8 @@ Debian GNU/Linux 9.1 (stretch) 4.15.12-x86_64
 
 #### PRODUCTION LEVEL I CONFIGURATION  
 
-200 	GB RAM    
-16 		CPU Cores        
+192 	GB RAM    
+32 		CPU Cores        
 2+		TB SSD Storage  
 2		GB Swap  
 40 		Gbps Network In    
