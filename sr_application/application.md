@@ -32,7 +32,7 @@ Washington DC
 **`• Social Media Following`**  
 Our movement is still young and we are actively trying to bring in new members.  
 
-Community Node on Telegram: [TRON Community Node & Super Representative](https://t.me/joinchat/IN2p-BFXGu8vByHn3qLyBg)  
+Community Node on Telegram: [TRON Community Node & Super Representative](https://t.me/CommunityNode)  
 Community Node on Twitter:  [@community_node](https://twitter.com/community_node)   
 We are also active on Reddit [r/tronix]((http://reddit.com/r/tronix)).
 
