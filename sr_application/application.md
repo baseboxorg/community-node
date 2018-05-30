@@ -73,8 +73,7 @@ https://www.youtube.com/watch?v=PW0mWR9tVkw
 *CTO*				[Jason Neely](https://github.com/bondibox/community-node/blob/master/sr_application/jason_neely.jpg)    
 *WAN Strategist*	Greg  
 *dapp Education*		Colradi  
-
-
+*UX Designer*		Duane Harrison
 
 
 
@@ -88,6 +87,9 @@ WAN Strategist
 
 Application Education    
 >  Colradi is a computer engineer in love with blockchain. He worked as an IT consultant and Java teacher for (too) many years in Madrid. Now he enjoys the inner peace of the mediterranean ocean, near Barcelona, and spends his days involved in a neverending Javascript project.
+
+UX Designer
+> Duane Harrison is a lead designer for one of the world’s largest airlines. Prior to this he has worked with a number of startups, overseeing and contributing to the design of mobile and web apps, one of which has featured in Apple’s WWDC keynote. Now based in Hong Kong, he is looking towards digital transformation in the financial space and sees huge potential in future applications that build on the Tron network.
 
 
 **`• Testable nodes`**  
