@@ -12,13 +12,13 @@
 > We will give certain publicity recommendations to increase our recommended super representatives' chances of being elected super delegates.
 
 
-#FAQ#
+# FAQ #
 
 
 ***What is the Tron Main Net?***
 
 
-The Tron main net, which launches on May 31, 2018, is a peer-to-peer (p2p) network that hosts the Tron blockchain.
+The Tron main net, which launches on June 26, 2018, is a peer-to-peer (p2p) network that hosts the Tron blockchain.
 
 ***What is the Tron blockchain?***
 
@@ -32,10 +32,10 @@ The blockchain will consist of 27 privately run computer nodes. They will create
 
 ***What is the Community Node project?***
 
+The Community Node project is a proposal to manage and operate a node on the Tron main net. It is an Open Source proposal, which means we are committed to leaving something behind when we're gone. Our Mission is to become an intellectual asset for the community. These are still the early days of crypto. Other cryptocurrencies to come along will surely use Tron's open source application as a starting point for their blockchain networks, as well as Tron's Super Representative structure. Those Super Representatives will be creating organizations very similar to ours. We chose to make our project Open Source in order to provide a resource for those who come after us.
 
-The Community Node project is a proposal to manage and operate a node on the Tron main net. It is an Open Source proposal, which means if and when the proposal is adopted and the organization is formed, it will be owned 100% by the public, managed by the owners through an election process. In the meantime, we are committed to sharing all of our accrued knowledge by printing it in our public repository.
 
-***Someone said something about earning TRX. How does that work***
+***Someone said something about earning TRX. How does that work?***
 
 Community Node will reward the voters who elect it to Super Representative. 
 
@@ -132,7 +132,7 @@ Dapps uploaded to the blockchain are permanent and incorruptible. They can not b
 
 ***Walk us through the dapp process.***
 
-We are sure the Tron network will support Java applications. I would also expect to see Python included, as well as Ruby and other high level languages. A developer will write their program in the language of their choice, and then use the Tron Virtual Machine, or TVM, to convert the dapp into bytecode which is like a computer's native tongue. Then it gets uploaded to the blockchain where it will live forever
+We are sure the Tron network will support Java applications. I would also expect to see Python included, as well as Ruby and other high level languages. A developer will write their program in the language of their choice, and then use the Tron Virtual Machine, or TVM, to convert the dapp into bytecode which is like a computer's native tongue. Then it gets uploaded to the blockchain where it will live forever.
 
 
 ***What's the difference between a node and a witness node and a Super Representative node?***
