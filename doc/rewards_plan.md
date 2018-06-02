@@ -22,7 +22,7 @@ The daily reward pool is distributed to all votes regardless of whether the node
 
 Rewards per vote are calculated by taking the total daily payout and dividing by the total number of votes. 
 
-An extra participation reward multiplier, M, is calculated from the number of days an address has voted for us, and the lifetime number of votes cast for Community Node. The formula for this (*Neely's formula*) is the number of days the address has voted for community node, divided by 2000, plus the natural log of the lifetime votes minus 16, divided by 20, plus 1, squared.
+An extra participation reward multiplier, M, is calculated from the number of days an address has voted for us, and the lifetime number of votes cast for Community Node. The formula for this (*Neely's formula*) is the number of days the address has voted for community node, divided by 2000, plus the natural log of the lifetime votes, minus 16, divided by 20, plus 1, squared.
 
 The vote rewards base rate R provides adjustments for overpayments. The previous day's reward pool is measured against the previous day's actual payout and then the base rate is recalculated accordingly.
 
@@ -70,7 +70,7 @@ If we win the second SR election with 100 million votes:
 
 The Rewards Account now has 120,000 TRX in it. The daily rewards pool will be either 2% of the Rewards Account (2,400 TRX), or 50% of the amount deposited into the Rewards Account that day (40,000 TRX), whichever is greater. For the second day, the base rate will also be 0.0004 TRX per vote.
 
-On the second day, everyone who cast at least 5,000 votes the previous day will have a lifetime vote total T = 1. Their Multiplier M will be:
+On the second day, everyone who cast at least 5,000 votes the previous day* will have a lifetime vote total T = 1. Their Multiplier M will be:
 
 E = 0 (because ln T - 16 is negative)  
 M = (1/2000 + 1) ^2  
@@ -94,3 +94,5 @@ Using 500 million average daily votes, the reward for this voter will be:
 1.2057 x 0.00016 = 0.000193 TRX per vote
 
 which works out to 7% annual rate, or 7.25% if compounded daily.
+
+*Our rewards plan increases the rate of payout for every day a voter casts votes for us. To keep people from taking advantage of that by casting 1 vote per day, we have a daily minimum of 5,000 votes to receive credit for voting that day. However, to make this available as a micro investment, we'll also keep a running tally for those voters ho don't get 5k per day. E.g. someone who only owns 500 TRX can vote for ten days and get a 1 day vote credit.

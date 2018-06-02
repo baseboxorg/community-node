@@ -61,7 +61,7 @@ Once you freeze your TRX and vote, that vote will be repeated every day until yo
 
 ***Is there a support email for this SR?***
 
-community_node@gmail.com
+communitynode@gmail.com
 
 ***What do you like about Tron?***
 
