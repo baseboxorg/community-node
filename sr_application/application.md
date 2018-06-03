@@ -141,7 +141,7 @@ We have discussed this project with John Arundel, noted author on the subject of
 
 **`• Budget expenses after June 26`**  
 $4,140  		. . .		June 27 - June 30 Production level I  
-$ ? 			. . .		Bitfield Consulting
+$ ? 			. . .		Bitfield Consulting  
 $ ? 			. . .		Network Security Specialist  
 $237,600	  	. . .		July 1 - December 31 Production level II  
 10,240 TRX  	. . .		Promotional contest  
