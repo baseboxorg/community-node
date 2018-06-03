@@ -21,6 +21,14 @@ Additional worker nodes will be deployed upon request by Tron Labs.
 
 We have discussed this project with John Arundel, noted author on the subject of Kubernetes and he has agreed to work with Community Node to develop a large scale deployment strategy. We will employ a variety of Cloud providers for geographic and resource diversity.
 
+5 Worker nodes
+
+ Gateway
+ 	||
+2 Trusted Nodes
+	|
+witness node
+
 
 
 

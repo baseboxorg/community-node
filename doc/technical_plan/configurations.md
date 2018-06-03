@@ -1,18 +1,3 @@
-We will be building our primary cluster instance at the Linode data center in Atlanta Georgia, USA., where they offer an OC768 incoming network connection, with 40 Gbps in and 10 Gbps out. We believe that the incoming network connection will be critical for the Super Representative nodes.
-
-Because the Tron Virtual Machine acts like a gigantic symmetric multiprocessor, we do not need one gigantic server instance, instead we will be building a cluster of server instances each with a specific task.
-
-It should be noted that since each worker node has its own guaranteed 10000 MbPS network connection, total data transfer is 50 GbPS.
-
-Our primary server cluster Instance will provide 196 Cores + 1 TB RAM + 20 TB SSD for the Tron Virtual Machine:  
-1x GATEWAY NODE $960 each  
-2x TRUSTED NODE $160 each  
-5x WORKER NODE $960 each  
-1x WITNESS NODE $240 each  
-                           
-We will monitor the performance of this initial configuration and re-engineer accordingly.
-
-Additional worker nodes will be deployed upon request by Tron Labs.
 
 
 | Name | GATEWAY NODE |
