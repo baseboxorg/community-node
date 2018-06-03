@@ -39,7 +39,7 @@
 | SSD  | 	      	640 GB|  	
 | Network  |          40/2 Gbps  | 	
 | Cost | 	          $160 / mo | 
-| Purpose |           IP Tunneled to the witness node  | 
+| Purpose |           IP Tunneled to the witness node and proxy | 
 
  
 
