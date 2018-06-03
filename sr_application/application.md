@@ -122,7 +122,7 @@ We will be building our primary cluster instance at the Linode data center in At
 Because the Tron Virtual Machine acts like a gigantic symmetric multiprocessor cluster, we do not need one gigantic server instance, instead we will be building a cluster of server instances each with a specific task.
 
 
-Each server cluster Instance will provide 196 Cores / 1 TB RAM for the Tron Virtual Machine  
+Each server cluster Instance will provide 196 Cores / 1 TB RAM for the Tron Virtual Machine:  
 1x GATEWAY NODE $960 each | 16 Core / 300 GB   
 2x TRUSTED NODE $160 each | 8 Core / 32 GB     
 5x WORKER NODE $960 each  | 32 Core / 192 GB   
@@ -130,12 +130,12 @@ Each server cluster Instance will provide 196 Cores / 1 TB RAM for the Tron Virt
                                                
 $10960 + .02¢ per Gb data transfer. Estimated monthly expense $20,000
 
-
+We will monitor the performance of this initial configuration and re-engineer accordingly.
 
 
 **`• Plans for hardware expansion`**  
 
-We have discussed this project with John Arundel, noted author on the subject of Kubernetes and he has agreed to work with Community Node to develop a large scale deployment strategy using a variety of Cloud providers to provide geographical and resource diversity.
+We have discussed this project with John Arundel, noted author on the subject of Kubernetes and he has agreed to work with Community Node to develop a large scale deployment strategy. We will employ a variety of Cloud providers for geographical and resource diversity.
 
 
 
