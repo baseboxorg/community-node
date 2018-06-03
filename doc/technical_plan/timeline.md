@@ -31,7 +31,7 @@ We have discussed this project with John Arundel, noted author on the subject of
 | SSD  | 	340 GB 
 | Network  | 	40/10 Gbps 
 | Cost | 	$960 month 
-| Purpose | High bandwidth reverse proxy for workers & witness | 
+| Purpose | High bandwidth reverse proxy for secure nodes | 
 
 
 | Name | WORKER NODE  |
