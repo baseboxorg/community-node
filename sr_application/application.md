@@ -122,7 +122,7 @@ We will be building our primary cluster instance at the Linode data center in At
 Because the Tron Virtual Machine acts like a gigantic symmetric multiprocessor cluster, we do not need one gigantic server instance, instead we will be building a cluster of server instances each with a specific task.
 
 
-Each server cluster Instance will provide 196 Cores / 1 TB RAM for the Tron Virtual Machine:  
+Each server cluster Instance will provide 196 Cores + 1 TB RAM + 20 TB SSD for the Tron Virtual Machine:  
 1x GATEWAY NODE $960 each | 16 Core / 300 GB   
 2x TRUSTED NODE $160 each | 8 Core / 32 GB     
 5x WORKER NODE $960 each  | 32 Core / 192 GB   
