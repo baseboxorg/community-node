@@ -23,11 +23,11 @@ We have discussed this project with John Arundel, noted author on the subject of
 
 5 Worker nodes
 
- Gateway
- 	||
-2 Trusted Nodes
-	|
-witness node
+ Gateway  
+ 	||  
+2 Trusted Nodes  
+	|  
+witness node  
 
 
 
