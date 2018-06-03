@@ -138,18 +138,17 @@ We will monitor the performance of this initial configuration and re-engineer ac
 We have discussed this project with John Arundel, noted author on the subject of Kubernetes and he has agreed to work with Community Node to develop a large scale deployment strategy. We will employ a variety of Cloud providers for geographical and resource diversity.
 
 
-
-**`• Budget expenses after June 26`**  
+**`• Budget Expenditure and Technical Plan after June 26`**  
 $4,140  		. . .		June 27 - June 30 Production level I  
-$ ? 			. . .		Bitfield Consulting  
+$ ? 			. . .		Automation & Replication Specialist  
 $ ? 			. . .		Network Security Specialist  
-$237,600	  	. . .		July 1 - December 31 Production level II  
+$120,600	  	. . .		July 1 - December 31 Production level II  
 10,240 TRX  	. . .		Promotional contest  
 20,000 TRX		. . .		Colradi task bonus  
 $30,000	. . .		Jason Neely salary from June 27 - December 31 (2.2%)  
 ? TRX				. . .		Other Contests and Promotions  
 
-$271,720 + 20,000 TRX = Total Expenses from June 27 - December 31 2018 
+$154,740 + 20,000 TRX = Total Expenses from June 27 - December 31 2018 
 
 Salaries are per annum maximums from June 27 - December 31 and will be based on the percentage of block participation.*  
 
