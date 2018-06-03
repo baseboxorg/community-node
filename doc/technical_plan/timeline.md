@@ -25,7 +25,7 @@ We have discussed this project with John Arundel, noted author on the subject of
 
 | Name | GATEWAY NODE |
 |---|---|
-| Instance Type | Hi I/O |
+| Instance Type | High I/O |
 | RAM | 	300 GB 
 | CPU  | 	16 Cores
 | SSD  | 	340 GB 
