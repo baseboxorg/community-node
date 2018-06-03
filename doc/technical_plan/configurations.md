@@ -16,7 +16,7 @@
 | CPU  |         32 Cores  | 	
 | SSD  |         3.8 TB  | 	
 | Network |      40/10 Gbps  | 	$
-| Cost |         960 / mo | 
+| Cost |         960 month | 
 | Purpose |      Provides flops and storage for TVM  | 
 
 
@@ -27,7 +27,7 @@
 | CPU  | 	          4 Cores  | 	
 | SSD  | 	          90 GB |  	
 | Network  |          40/3 Gbps  | 	
-| Cost | 	          $240 / mo | 
+| Cost | 	          $240 month | 
 | Purpose |           IP Tunneled to the trusted nodes and proxy  | 
             
 
@@ -38,7 +38,7 @@
 | CPU  | 	          8 Cores  | 	
 | SSD  | 	      	640 GB|  	
 | Network  |          40/2 Gbps  | 	
-| Cost | 	          $160 / mo | 
+| Cost | 	          $160 month| 
 | Purpose |           IP Tunneled to the witness node and proxy | 
 
  

@@ -107,6 +107,7 @@ Cloud Based VM
 
 
 **`• Budget Expenditure and Technical Plan before June 26, 2018`**  
+
 $15          	. . .		Domain Registration CommunityNode.org  
 $20          	. . .		 May 1 - May 28 alpha configuration  
 $200         	. . .		 May 29 - June 26 beta configuration  
@@ -116,22 +117,31 @@ $235 + 9,999 TRX = Total expenses May 1 - June 26
 
 
 
-The recommended configuration is an Amazon AWS x1.16xlarge with 25 Gbps network i/o but we have found a hosting service with a OC768 incoming network connection, offering 40 Gbps in and 10 Gbps out. We believe that the incoming network connection will be critical for the Super Representative nodes, and the outbound connection will be used more with the Full Nodes. Therefore we believe there exists the potential for this service to be superlative to the de facto standard.
+We will be building our primary cluster instance at the Linode data center in Atlanta Georgia, USA., where they offer an OC768 incoming network connection, with 40 Gbps in and 10 Gbps out. We believe that the incoming network connection will be critical for the Super Representative nodes.
 
-The largest configuration available at this host is 32 core / 196 GB RAM. We will compare this against AWS and will use whichever service performs better.
+Because the Tron Virtual Machine acts like a gigantic symmetric multiprocessor cluster, we do not need one gigantic server instance, instead we will be building a cluster of server instances [each with a specific task](https://github.com/bondibox/community-node/blob/master/doc/technical_plan/configurations.md).
+
+
+Each server cluster Instance will provide 196 Cores / 1 TB RAM for the Tron Virtual Machine
+1x GATEWAY NODE $960 each | 16 Core / 300 GB   
+2x TRUSTED NODE $160 each | 8 Core / 32 GB     
+5x WORKER NODE $960 each  | 32 Core / 192 GB   
+1x WITNESS NODE $240 each | 4 Core / 90 GB     
+                                               
+$10960 + .02¢ per Gb data transfer. Estimated monthly expense $20,000
+
+
 
 
 **`• Plans for hardware expansion`**  
 
+We have discussed this project with John Arundel, noted author on the subject of Kubernetes and he has agreed to work with Community Node to develop a large scale deployment strategy using a variety of Cloud providers to provide geographical and resource diversity.
 
-We are currently researching the building of a cluster of server instances running in parallel for nearly unlimited resources, as well as adding docker, kubernetes, and hadoop replication and deployment services.
-
-Since AWS has a higher outbound network connection than our main node, we will deploy Full nodes on AWS as data slaves.
 
 
 **`• Budget expenses after June 26`**  
 $4,140  		. . .		June 27 - June 30 Production level I  
-$ ? 			. . .		Automation & Replication Specialist  
+$ ? 			. . .		Bitfield Consulting
 $ ? 			. . .		Network Security Specialist  
 $237,600	  	. . .		July 1 - December 31 Production level II  
 10,240 TRX  	. . .		Promotional contest  
