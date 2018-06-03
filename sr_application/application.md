@@ -119,7 +119,7 @@ $235 + 9,999 TRX = Total expenses May 1 - June 26
 
 We will be building our primary cluster instance at the Linode data center in Atlanta Georgia, USA., where they offer an OC768 incoming network connection, with 40 Gbps in and 10 Gbps out. We believe that the incoming network connection will be critical for the Super Representative nodes.
 
-Because the Tron Virtual Machine acts like a gigantic symmetric multiprocessor cluster, we do not need one gigantic server instance, instead we will be building a cluster of server instances each with a specific task.
+Because the Tron Virtual Machine acts like a gigantic symmetric multiprocessor, we do not need one gigantic server instance, instead we will be building a cluster of server instances each with a specific task.
 
 
 Each server cluster Instance will provide 196 Cores + 1 TB RAM + 20 TB SSD for the Tron Virtual Machine:  
@@ -128,7 +128,7 @@ Each server cluster Instance will provide 196 Cores + 1 TB RAM + 20 TB SSD for t
 5x WORKER NODE $960 each  
 1x WITNESS NODE $240 each  
                                                
-$10960 + .02¢ per Gb data transfer. Estimated monthly expense $20,000
+$10960 + .02¢ per GB data transfer. Estimated monthly expense $20,000
 
 We will monitor the performance of this initial configuration and re-engineer accordingly.
 
