@@ -2,6 +2,7 @@ We will be building our primary cluster instance at the Linode data center in At
 
 Because the Tron Virtual Machine acts like a gigantic symmetric multiprocessor, we do not need one gigantic server instance, instead we will be building a cluster of server instances each with a specific task.
 
+It should be noted that since each worker node has its own guaranteed 10000 MbPS network connection, total data transfer is 50 GbPS.
 
 Our primary server cluster Instance will provide 196 Cores + 1 TB RAM + 20 TB SSD for the Tron Virtual Machine:  
 1x GATEWAY NODE $960 each  
