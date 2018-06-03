@@ -31,13 +31,16 @@
 | Purpose |           IP Tunneled to the trusted nodes and proxy  | 
             
 
+| Name |              TRUSTED NODE  | 
+|---|---|
+| Instance Type   |   IPSec |  	
+| RAM | 	          32 GB | 
+| CPU  | 	          8 Cores  | 	
+| SSD  | 	      	640 GB|  	
+| Network  |          40/2 Gbps  | 	
+| Cost | 	          $160 / mo | 
+| Purpose |           IP Tunneled to the witness node  | 
+
  
-
-
-
-
-
-
-
 
              
