@@ -119,10 +119,10 @@ $235 + 9,999 TRX = Total expenses May 1 - June 26
 
 We will be building our primary cluster instance at the Linode data center in Atlanta Georgia, USA., where they offer an OC768 incoming network connection, with 40 Gbps in and 10 Gbps out. We believe that the incoming network connection will be critical for the Super Representative nodes.
 
-Because the Tron Virtual Machine acts like a gigantic symmetric multiprocessor cluster, we do not need one gigantic server instance, instead we will be building a cluster of server instances [each with a specific task](https://github.com/bondibox/community-node/blob/master/doc/technical_plan/configurations.md).
+Because the Tron Virtual Machine acts like a gigantic symmetric multiprocessor cluster, we do not need one gigantic server instance, instead we will be building a cluster of server instances each with a specific task.
 
 
-Each server cluster Instance will provide 196 Cores / 1 TB RAM for the Tron Virtual Machine
+Each server cluster Instance will provide 196 Cores / 1 TB RAM for the Tron Virtual Machine  
 1x GATEWAY NODE $960 each | 16 Core / 300 GB   
 2x TRUSTED NODE $160 each | 8 Core / 32 GB     
 5x WORKER NODE $960 each  | 32 Core / 192 GB   
@@ -167,48 +167,53 @@ Colradi < 20,000 TRX paid upon completion of achievement levels:
 
 
 
-
-### ***`DETAILED HARDWARE CONFIGURATIONS`***  
-
-
-#### ALPHA CONFIGURATION  
-Debian GNU/Linux 9.1 (stretch) 4.15.12-x86_64  
-2500 MHz Intel(R) Celeron(R) M processor  
-4	 	GB RAM    
-2 		CPU Cores    
-46 		GB SSD Storage    
-2256	SWAP  
-40 		Gbps Network In    
-1 		Gbps Network Out    
+| Name | GATEWAY NODE |
+|---|---|
+| Instance Type | Hi I/O |
+| RAM | 	300 GB 
+| CPU  | 	16 Cores
+| SSD  | 	340 GB 
+| Network  | 	40/10 Gbps 
+| Cost | 	$960 month 
+| Purpose | High bandwidth reverse proxy for workers & witness | 
 
 
-
-#### BETA CONFIGURATION  
-
-24 		GB RAM  
-8	 	CPU Cores  
-2		GB Swap  
-384 	GB SSD Storage  
-40	 	Gbps Network In  
-2	 	Gbps Network Out  
-
-
-
-#### PRODUCTION LEVEL I CONFIGURATION  
-
-192 	GB RAM    
-32 		CPU Cores        
-2+		TB SSD Storage  
-2		GB Swap  
-40 		Gbps Network In    
-10 		Gbps Network Out    
+| Name | WORKER NODE  |
+|---|---|
+| Instance Type |  CPU & Storage |
+| RAM |          192 GB  | 	
+| CPU  |         32 Cores  | 	
+| SSD  |         3.8 TB  | 	
+| Network |      40/10 Gbps  | 	$
+| Cost |         960 month | 
+| Purpose |      Provides flops and storage for TVM  | 
 
 
+| Name |              WITNESS NODE  | 
+|---|---|
+| Instance Type   |   IPSec |  	
+| RAM | 	          90 GB  | 
+| CPU  | 	          4 Cores  | 	
+| SSD  | 	          90 GB |  	
+| Network  |          40/3 Gbps  | 	
+| Cost | 	          $240 month | 
+| Purpose |           IP Tunneled to the trusted nodes and proxy  | 
 
-#### PRODUCTION LEVEL II
-Kubernetes • Hadoop * Docker replicated network  
 
-TBD  
+| Name |              TRUSTED NODE  | 
+|---|---|
+| Instance Type   |   IPSec |  	
+| RAM | 	          32 GB | 
+| CPU  | 	          8 Cores  | 	
+| SSD  | 	      	640 GB|  	
+| Network  |          40/2 Gbps  | 	
+| Cost | 	          $160 month| 
+| Purpose |           IP Tunneled to the witness node and proxy | 
+
+
+
+
+
 
 
 *For the period of June 27 - December 31: Salaries, revenues, and some expenses are based on a maximum block production of 595,330
