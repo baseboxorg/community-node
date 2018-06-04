@@ -1,17 +1,20 @@
 We will be building our primary cluster instance at the Linode data center in Atlanta Georgia, USA., where they offer an OC768 incoming network connection, with 40 Gbps in and 10 Gbps out. We believe that the incoming network connection will be critical for the Super Representative nodes.
 
-Because the Tron Virtual Machine acts like a gigantic symmetric multiprocessor, we do not need one gigantic server instance, instead we will be building a cluster of server instances each with a specific task.
+Because the Tron Virtual Machine acts like one big symmetric multiprocessor cluster, we do not need a one-size-fits-all server instance, instead we will be building several server instances each with a specific task.
 
-It should be noted that since each worker node has its own guaranteed 10000 MbPS network connection, total data transfer is 50 GbPS.
+It should be noted that since each node has a guaranteed throughput network connection, total bandwidth is the sum of all the nodes output.
 
-Our primary server cluster Instance will provide 196 Cores + 1 TB RAM + 20 TB SSD for the Tron Virtual Machine:  
-1x GATEWAY NODE $960 each  
-2x TRUSTED NODE $160 each  
-5x WORKER NODE $960 each  
-1x WITNESS NODE $240 each  
+Our primary server cluster Instance will provide **248 Cores + 1292 GB RAM + 24 TB SSD** for the Tron Virtual Machine:  
+
+1x Witness Node $160 each  
+6x Sentry Node $160 each  
+1x High Mem High I/O NODE $960 each  
+1x High CPU High I/O Node $960 each  
+9x Worker Nodes $320 each
+
                                                
-$10960 + .02¢ per GB data transfer after the first 148 TB.  
-Estimated monthly expense $20,000
+$5920 + .02¢ per GB data transfer after the first 320 TB.  
+Estimated monthly expense $10,000
 
 We will monitor the performance of this initial configuration and re-engineer accordingly.
 
