@@ -71,7 +71,7 @@ https://www.youtube.com/watch?v=PW0mWR9tVkw
 
 **`• List of key staff and their photos`**  
 *CTO*				[Jason Neely](https://github.com/bondibox/community-node/blob/master/sr_application/jason_neely.jpg)    
-*WAN Strategist*	Greg  
+*WAN Strategist*	[Greg](https://github.com/bondibox/community-node/blob/master/sr_application/greg.jpg)  
 *dapp Education*		Colradi  
 *UX Designer*		Duane Harrison
 

@@ -10,7 +10,8 @@ Our primary server cluster Instance will provide 196 Cores + 1 TB RAM + 20 TB SS
 5x WORKER NODE $960 each  
 1x WITNESS NODE $240 each  
                                                
-$10960 + .02¢ per GB data transfer. Estimated monthly expense $20,000
+$10960 + .02¢ per GB data transfer after the first 148 TB.  
+Estimated monthly expense $20,000
 
 We will monitor the performance of this initial configuration and re-engineer accordingly.
 
