@@ -116,19 +116,23 @@ $200         	. . .		 May 29 - June 26 beta configuration
 $235 + 9,999 TRX = Total expenses May 1 - June 26
 
 
-
 We will be building our primary cluster instance at the Linode data center in Atlanta Georgia, USA., where they offer an OC768 incoming network connection, with 40 Gbps in and 10 Gbps out. We believe that the incoming network connection will be critical for the Super Representative nodes.
 
-Because the Tron Virtual Machine acts like a gigantic symmetric multiprocessor, we do not need one gigantic server instance, instead we will be building a cluster of server instances each with a specific task.
+Because the Tron Virtual Machine acts like one big symmetric multiprocessor cluster, we do not need a one-size-fits-all server instance, instead we will be building several server instances each with a specific task.
 
+A Super Representative faces two technical responsibilities. The mission critical component is running a well protected Witness Node. Then you must make available lots of flops and storage for TVM.
 
-Each server cluster Instance will provide 196 Cores + 1 TB RAM + 20 TB SSD for the Tron Virtual Machine:  
-1x GATEWAY NODE $960 each  
-2x TRUSTED NODE $160 each  
-5x WORKER NODE $960 each  
-1x WITNESS NODE $240 each  
-                                               
-$10960 + .02¢ per GB data transfer. Estimated monthly expense $20,000
+Our Primary cluster surrounds our Witness node with 6 Sentry nodes, which connect to the Witness via an IPSec tunnel. This cloaks the witness from the outside world, and allows it to advertise a private IP address. The 6 Sentry nodes act as the point of contact for the witness node, meaning a successful DDoS attack would have to discover and compromise all 6 Sentries. The Sentries will then be surrounded by unprotected Full Nodes which do the heavy lifting of the network. 8 of these nodes are configured to provide the most resources per dollar, and 4 are provisioned with 40/10 Gbps network connections. This ought to provide an optimal combination of storage, CPU and burst availability.
+
+Our primary deployment cluster will provide **280 Cores + 1620 GB RAM + 23 TB SSD** for the Tron Virtual Machine:  
+
+1x Witness Node $160 each  
+6x Sentry Nodes $160 each  
+2x High Mem High I/O Node $960 each  
+2x High CPU High I/O Node $960 each  
+8x Worker Nodes $320 each
+
+$7520 + .02¢ per GB data transfer after the first 330 TB.  
 
 We will monitor the performance of this initial configuration and re-engineer accordingly.
 
@@ -137,82 +141,59 @@ We will monitor the performance of this initial configuration and re-engineer ac
 
 We have discussed this project with John Arundel, noted author on the subject of Kubernetes and he has agreed to work with Community Node to develop a large scale deployment strategy. We will employ a variety of Cloud providers for geographical and resource diversity.
 
-
 **`• Budget Expenditure and Technical Plan after June 26`**  
-$4,140  		. . .		June 27 - June 30 Production level I  
-$ ? 			. . .		Automation & Replication Specialist  
-$ ? 			. . .		Network Security Specialist  
-$120,600	  	. . .		July 1 - December 31 Production level II  
-10,240 TRX  	. . .		Promotional contest  
-20,000 TRX		. . .		Colradi task bonus  
-$30,000	. . .		Jason Neely salary from June 27 - December 31 (2.2%)  
-? TRX				. . .		Other Contests and Promotions  
+Percentages are of daily block rewards earned.  
+80% - Voter Rewards Program  
+7% - Resource Deployments
+13% - Operating Expenses
 
-$154,740 + 20,000 TRX = Total Expenses from June 27 - December 31 2018 
+Since we will be spending 7% of revenue on node deployments, our deployment will scale with the value of TRX. For every .04¢ gain in TRX price we will add another cluster.
 
-Salaries are per annum maximums from June 27 - December 31 and will be based on the percentage of block participation.*  
-
-Jason Neely < $30,000 (2.2% gross revenue) paid at the rate of 2 TRX per block until max payout is reached, and contingent upon the following expectations having been met:  
- ^ Able to meet technical requirements of Super Representative node  
- ^ Able to meet organization requirements of Super Representative node  
- ^ Continued operation of Super Representative node  
- ^ Hardware expansion goals met in timely manner
-
-Colradi < 20,000 TRX paid upon completion of achievement levels:  
- ^ 10,000 TRX java based distributed application written  
- ^ 2,000 TRX dapp uploaded to test net  
- ^ 2,000 TRX token created for dapp  
- ^ 6,000 TRX dapp creation & upload HowTo document produced
+We will distribute up to 80% of daily block rewards back to the voters who elect us to office, through a program that draws payouts from a slowly accruing payout account which maxxes out at 4 Million TRX. When the Super Representative Program ends in 2021, we will use all of the expertise we've gained to continue to run the Tron network. We will spend the entire 4 Million TRX that we've accrued in the payout account to buy hardware infrastructure on an enterprise level.
 
 
-
-| Name | GATEWAY NODE |
+| Name | I/O High MEM |
 |---|---|
-| Instance Type | Hi I/O |
 | RAM | 	300 GB 
 | CPU  | 	16 Cores
 | SSD  | 	340 GB 
 | Network  | 	40/10 Gbps 
+| Transfer | 9 TB |
 | Cost | 	$960 month 
-| Purpose | High bandwidth reverse proxy for workers & witness | 
+| Purpose | High Memory / High bandwidth node | 
 
 
-| Name | WORKER NODE  |
+| Name | I/O High CPU |
 |---|---|
-| Instance Type |  CPU & Storage |
 | RAM |          192 GB  | 	
 | CPU  |         32 Cores  | 	
 | SSD  |         3.8 TB  | 	
-| Network |      40/10 Gbps  | 	$
-| Cost |         960 month | 
-| Purpose |      Provides flops and storage for TVM  | 
+| Network |      40/10 Gbps  | 	
+| Transfer |  20 TB |
+| Cost |         960 month |
+| Purpose | High CPU / High bandwidth node |  
 
 
-| Name |              WITNESS NODE  | 
+| Name |  SENTRY NODE & WITNESS NODE  | 
 |---|---|
-| Instance Type   |   IPSec |  	
-| RAM | 	          90 GB  | 
-| CPU  | 	          4 Cores  | 	
-| SSD  | 	          90 GB |  	
-| Network  |          40/3 Gbps  | 	
-| Cost | 	          $240 month | 
-| Purpose |           IP Tunneled to the trusted nodes and proxy  | 
-
-
-| Name |              TRUSTED NODE  | 
-|---|---|
-| Instance Type   |   IPSec |  	
 | RAM | 	          32 GB | 
 | CPU  | 	          8 Cores  | 	
 | SSD  | 	      	640 GB|  	
 | Network  |          40/2 Gbps  | 	
-| Cost | 	          $160 month| 
-| Purpose |           IP Tunneled to the witness node and proxy | 
+| Transfer | 16 TB |
+| Cost |      $160 month| 
+| Purpose |   IPSec Tunneled Witness & Witness Border Nodes  | 
+         
+
+             
+| Name | WORKER NODE  |
+|---|---|
+| RAM | 	64 GB 
+| CPU  | 	16 Cores
+| SSD  | 	1280 GB 
+| Network  | 	40/4 Gbps 
+| Transfer | 20 TB |
+| Cost | 	$320 month 
+| Purpose |  Lowest Resource Cost | 
 
 
-
-
-
-
-
-*For the period of June 27 - December 31: Salaries, revenues, and some expenses are based on a maximum block production of 595,330
