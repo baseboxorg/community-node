@@ -22,7 +22,7 @@ We poked some holes in our technical setup and then hardened the exposed vulnera
 
 Just as there was no need for us to build a giant superserver, or for us to create a token to assist in receiving supporters' feedback, there is no need for us to structure our organization in a way that lets management be replaced by the voters. There's no need to replace me within Community Node because I AM Community Node. It is my leadership which brought the rest of the team together, and with a new leader at the helm, frankly, I don't think they would stick around. If the voters disapprove of my performance as chief executive, that's what the other 99 Super Representative Candidates are for. If you want to do better yourself, have at it! I'll even give you instructions.
 
-I have given this subject considerable thought, and the **only** thing that allowing a Super Representative group achieves is it exposes the Super Representative node to a hostile takeover. Here is where idealism must be ditched for pragmatism.
+I have given this subject considerable thought, and the **only** thing that allowing a Super Representative group to be run by a public entity achieves is it exposes the Super Representative node to a hostile takeover. Here is where idealism must be ditched for pragmatism.
 
 So it's with a little bit of sadness but backed by a lot of confidence that I announce Community Node Organization will not be a publicly held company. I discussed the change with my core team members and they are on board with it. I certainly hope the community doesn't feel like this is a bait and switch, because I don't. I feel like this is the responsible thing to do, and I do have a serious responsibility here. 
 
