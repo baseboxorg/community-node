@@ -73,7 +73,7 @@ https://www.youtube.com/watch?v=PW0mWR9tVkw
 *CTO*				[Jason Neely](https://github.com/bondibox/community-node/blob/master/sr_application/jason_neely.jpg)    
 *WAN Strategist*	[Greg](https://github.com/bondibox/community-node/blob/master/sr_application/greg.jpg)  
 *dapp Education*		Colradi  
-*UX Designer*		Duane Harrison
+*UX Designer*		[Duane Harrison](https://github.com/bondibox/community-node/blob/master/sr_application/duane_harrison.jpg)
 
 
 
