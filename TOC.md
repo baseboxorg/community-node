@@ -1,11 +1,11 @@
 
 1. README
 
-2. EXECUTIVE 
+2. DOC 
  1. Financial Plan
  2. Rewards Plan
 		
-3. ORGANIZATION INFORMATION
+3. SR APPLICATION
  1. Company Info
  1. Election Promotions
  1. Expense Budget
