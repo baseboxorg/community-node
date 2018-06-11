@@ -4,7 +4,7 @@ I started running a node as soon as I heard about the java-tron project. It wasn
 
 Turns out I wasn't the only one with that idea, and while I may have beaten some of them to my announcement, they already had large organizations built. Undeterred, I pressed on.
 
-The first thing I did was I published a Witness Node how to for newbies. And the first thing one of the other candidate groups did was plagiarize it and redistribute it. I was getting a taste of what I was in for.
+The first thing I did was I published a Witness Node how to for newbies. And the first thing one of the other candidate groups did was plagiarize it and redistribute it. So the first thing I learned was that the various Super Representative groups were all operating at different levels of professionalism.
 
 During test net, I spent all my days in the 'issues' forum at the github java-tron repository. I discovered a lot of bugs, but what I discovered in the end was a few of these weren't really bugs. Like the time I would sync to a different block height, I think they were testing the potential for a 51% attack. I chalk up most of the "hiccups" to these tests. A lot of us reported bugs to Tron, but that doesn't really take any talent, and it probably didn't tell them anything they didn't already know. What was really helpful to Tron was when we went out and found solutions. I found one such solution, and last week I was informed I'd be receiving a Bug Bounty for it!
 
