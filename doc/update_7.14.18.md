@@ -4,7 +4,9 @@ I started running a node as soon as I heard about the java-tron project. It wasn
 
 Turns out I wasn't the only one with that idea, and while I may have beaten some of them to my announcement, they already had large organizations built. Undeterred, I pressed on.
 
-The first thing I did was I published a Witness Node how to for newbies. And the first thing one of the other candidate groups did was plagiarize it and redistribute it. So the first thing I learned was that the various Super Representative groups were all operating at different levels of professionalism.
+I decided to walk a fine line. I'd accept help, but I didn't want anyone else to risk their capital. My plan was to cover all of the costs until we started generating revenue, because the risk was just way too high for me to ask anyone else to take a part of it. Part of that was running a lean budget.
+
+The first thing I did was I published a Witness Node how to for newbies. And the first thing one of the other candidate groups did was plagiarize it and redistribute it. So I learned the various Super Representative groups were all operating at different levels of professionalism.
 
 During test net, I spent all my days in the 'issues' forum at the github java-tron repository. I discovered a lot of bugs, but what I discovered in the end was a few of these weren't really bugs. Like the time I would sync to a different block height, I think they were testing the potential for a 51% attack. I chalk up most of the "hiccups" to these tests. 
 
@@ -12,9 +14,9 @@ A lot of us reported bugs to Tron, but that doesn't really take any talent, and 
 
 One of the challenges during the test net phase was to stay productive when the application wasn't working. To me, this was just an opportunity to multitask, putting on the hat of CEO and CFO too. I crafted a rewards plan that is unique, and in my opinion it actually ends up strengthening the trust level of our witness node. 
 
-The CEO role was the hardest, as I've never held a management position. I learned not to force anything, instead letting people come to me and let me use their best strengths. Greg was the first person to join the team, and then Colradi and Duane came on board. The beauty of this was all I had to do was delegate assignments that they were anxious to perform. We didn't need a dictator, we just needed someone to set a steady course.
+The CEO role was the hardest, as I've never held a management position. I learned not to force anything, instead letting people come to me to let me use their best strengths. Greg was the first person to join the team, and then Colradi and Duane came on board. The beauty of this was all I had to do was delegate assignments that they were anxious to perform. We didn't need a dictator, we just needed someone to set a steady course.
 
-So maybe we had a community member who was difficult to deal with in the beginning. The easy temptation would have been to kick him out of our group, because I really don't have time for this. But I made time for him. And instead of creating an enemy, I offered him an internship and began to mentor him. That's how you win a campaign, one ally at a time.
+So maybe we had a community member who was difficult to deal with in the beginning. The easy temptation would have been to kick him out of our group, because I really don't have time for that. But I made time for him. And instead of creating an enemy, I offered him an internship and began to mentor him. That's how you win a campaign, one ally at a time.
 
 I remember the day Tron announced they would require a 100,000 TRX application fee for the Super Representatives. I was crushed. There was no way I could come up with that amount of TRX.  But the Community Node members said not to worry about it, they had my back. In the end, Tron lowered the fee to 9,999 TRX which made me very happy. In the meantime I was just a little bit short for the 15,000 TRX needed for the SR deposit. Out of the blue, a coder extraordinaire named Rovak came to the rescue, and he gave me 2448 TRX to complete the deposit. I think I cried a little when that happened, for I was really getting to see what the Tronix community was all about. Roy didn't join our team that day, he's just an incredibly nice guy who wants to see us all succeed.
 
