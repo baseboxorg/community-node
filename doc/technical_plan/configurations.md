@@ -1,3 +1,7 @@
+Debian GNU/Linux 9.1 (stretch) 4.15.12-x86_64
+ 2500 MHz Intel(R) Celeron(R) M processor
+
+
 
 | Name | I/O High MEM |
 |---|---|

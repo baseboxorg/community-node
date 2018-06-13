@@ -1,14 +1,11 @@
 rails website
-wireguard tunnels
-haproxy 
-tutorial
-SMP
-
-
-
+wireguard tunnels - proxy 
 Tron live
+30 second promo
+60 second ad
+Print media for ads
 
-
+rewards distribution automation
 
 
 
@@ -19,7 +16,6 @@ cron jobs
 
 daemonize website
 
-Fix java-tron daemon to exit cleanly
 
 separate mail & web server
 
