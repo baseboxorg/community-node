@@ -10,7 +10,7 @@ rewards distribution automation
 mail server  
 
 
-==================================================
+==================================================  
 TRONSR VIDEO INTRODUCTION
 
 Video requirements for super representative elections:
@@ -33,7 +33,7 @@ Format: MP4
 
 Please send to od@tron.network (Title: Video Of *** Team For TRON Super Representative Elections)
 
-=====================================================
+=====================================================  
 
 TRON LIVE INTERVIEW
 
