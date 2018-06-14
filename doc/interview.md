@@ -95,7 +95,7 @@ Our plan also rewards voter loyalty, with a formula that gives a small increase 
 
 Upon election to Super Representative, Community Node will embark on a large scale deployment automation process using puppet and kubernetes. In the future we envision our organization quickly creating temporary node clusters on demand in geographic hot spots where large scale gatherings are occurring.
 
-Our commitment to the Tron network is long term. We understand this program isn't merely a way for us to generate personal income. In addition to providing the resources that will run the Tron network on day one, we have a responsibility to the long term growth of said network. Our expansion plan will add another cluster of nodes for every .04¢ cent rise in the value of TRX, and by the time TRX is at .50¢ we should have the largest deployment footprint of any Super Representative organization.
+Our commitment to the Tron network is long term. We understand this program isn't merely a way for us to generate personal income; the most generous rewards program must also be sustainable. In addition to providing the resources that will run the Tron network on day one, we have a responsibility to the long term growth of said network. Our expansion plan will add another cluster of nodes for every .04¢ cent rise in the value of TRX, and by the time TRX is at .50¢ we should have the largest deployment footprint of any Super Representative organization.
 
 When the current TronSR program ends in 2021, we will invest the 4 Million TRX accrued in our payout fund in enterprise servers to position us for the next phase of the Tron development timeline.
 
