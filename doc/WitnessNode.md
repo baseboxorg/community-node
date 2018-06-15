@@ -74,23 +74,13 @@ This is just a node. The next step is to set up a witness node using the informa
 
     cp src/main/resources/config.conf .
     nano config.conf    
-There is only one key piece of information to enter here - the private key in the localwitnesses block. However if you don't specify your IP address it will have to probe for it on startup and that takes a few seconds, so I like to hardcode the IP information. Google cloud users will have two IP addresses. It may work best by configuring separate IP's like this. Use actual IP addresses. I have both of those configured for my one public IP even though I also have an internal subnet IP. 
+There is only one key piece of information to enter here - the private key in the localwitnesses block. 
 
-**config.conf changes**
-
-    node.discovery = {
-      enable = true
-      persist = true
-      bind.ip = "INTERNAL.IP.ADDRESS"
-      external.ip = "EXTERNAL.IP.ADDRESS"
-    }
-
---------------------------
+**config.conf changes** (use your own private key)
 
 	localwitness = [
 	ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890
 	]
-
 
 
 
