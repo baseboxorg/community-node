@@ -4,7 +4,8 @@ Most of us will be setting up our nodes in the cloud, on a VM slice. There's a v
 
 **STEP #1 Register an address**
 
-Go to [tronscan.org](https://tronscan.org/#/) and register. Clicking the red bar at the top of the page will create a new test wallet address, password and private key. Copy and save them to a txt file. You can then use the password to login and request 1,000,000 test TRX to be sent to your wallet address. If you want to run the wallet-web app it will now show you the same balance, but you can only request tokens from the tronscan.org server. The test net has a good amount of functionality now, you can use those test TRX to vote for delegates, to create tokens, and to send to other TRX test addresses.
+Go to [tronscan.org](https://tronscan.org/#/) and register. Here is [a screencast on setting up a wallet](https://www.youtube.com/watch?v=-L2zZW8UAww) and backing up the private key.
+
 
 **STEP #2 Install Java 8**
 
