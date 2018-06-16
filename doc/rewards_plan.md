@@ -1,15 +1,9 @@
 Rewards Plan
 
 
-Our rewards plan depends on how many votes are required to win a Super Representative spot, and whether we get elected as Super Representative node full time or just part time.
+Our rewards plan depends on how many votes we get, and how much TRX we earn.
 
-All of the other Super Representatives' rewards plans assume that full-time status will be obtained and that every day will provide 1/365th of the Super Representative's annual gross revenue.
-
-We believe this is a naive miscalculation. It would not be forthcoming if the organizers had considered this possibility and decided not to include it in their business plan.
-
-Our business plan is built around the contingency that we may not get elected as SR every day. Once the other SR’s fail to get elected one day, their rewards program will break down and to make up for lost revenue they will have to lower the reward the next time they win, or else lower their promises of community support and become a purely capitalistic enterprise. Instead of gaining momentum, we foresee an exodus of support from these programs when their voters realize there's been a bait and switch.
-
-We want to create a stable, predictable voter payout every day even on days when we lose the Super Representative election. We will do this by putting 80% of everything we earn into the "piggy bank."  And every day we will pay our voters half of what went into the piggy bank, or 2% of what's in the piggy bank, whichever is greater.
+We want to create a stable, predictable voter payout every day even on days when we lose the Super Representative election. We will do this by putting 80% of everything we earn into the "piggy bank."  And every day we will pay our voters half of what went into the piggy bank, or 2% of what's in it, whichever is greater.
 
 In the beginning the daily payout will be a lot bigger on the days when we win. But when the piggy bank is half full the daily payout will be the same whether we win or lose.
 
