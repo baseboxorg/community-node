@@ -17,9 +17,11 @@ The daily rewards payout will be disbursed 3 days after the vote has been cast.
 
 To give you an idea of how our rewards system will work, if we win a Super Representative election with 100 million votes:
 
-The Rewards Account (piggy bank) will get about 27,000 TRX deposited into it, making the total payout on day one 13,500 TRX. The voter reward for the first day is .000135 TRX per vote.
+The Rewards Account (piggy bank) will get about 30,000 TRX deposited into it, making the total payout on day one 15,000 TRX. The voter reward for the first day is .00015 TRX per vote.
 
-If we continue to get elected with 100 Million votes per day, the voter reward will stay the same until the Rewards Account has 666,666 TRX in it and then the daily reward per vote will slowly grow until it reaches 0.00027
+The daily payout amount will stay the same until the Rewards Account has 750,000 TRX in it and then the daily reward per vote will slowly grow until it doubles.
+
+If we continue to get elected with 100 Million votes per day, it would reach a maximum of .0003 per vote.
 
 Of course, if we get twice as many votes per day, the reward per vote will be half as much.
 
