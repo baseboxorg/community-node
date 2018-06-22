@@ -25,8 +25,5 @@ If we continue to get elected with 100 Million votes per day, it would reach a m
 
 Of course, if we get twice as many votes per day, the reward per vote will be half as much.
 
-<<<<<<< HEAD
+
 *Our rewards plan increases the rate of payout for every day a voter casts votes for us. To keep people from taking advantage of that by casting 1 vote per day, we have a daily minimum of 5,000 votes to receive credit for voting that day. However, to make this available to micro investors, we'll also keep a running tally for those voters ho don't get 5k per day. E.g. someone who only owns 500 TRX can vote for ten days and get a 1 day vote credit.
-=======
-*Our rewards plan increases the rate of payout for every day a voter casts votes for us. To keep people from taking advantage of that by casting 1 vote per day, we have a daily minimum of 5,000 votes to receive credit for voting that day. However, to make this available to micro investors, we'll also keep a running tally for those voters ho don't get 5k per day. E.g. someone who only owns 500 TRX can vote for ten days and get a 1 day vote credit.
->>>>>>> 344a88dc2b4ecbf31d544619e45d7acf1adbd0ee
