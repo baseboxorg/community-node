@@ -8,7 +8,7 @@ Whatever the outcome of the first elections, I have been moved by the support yo
 
 The Tronics community is committed to the long term soundness of the TRX ecosystem, and so is Community Node. We have become a leader in passing milestones and helping the community. We set out to run a reliable server and we succeeded. Our Witness node has been running since the relaunch of the main net on June 1, and it never missed a single grpc ping. We were the first to win a bug bounty, the first to have a private testnet, the first to put together a dapp development program, and the only one to initiate a mentoring program for people who want to launch their own super representative organizations. Our node is your node. YOU will be the ones to employ us, our knowledge is your knowledge, our revenue is mostly your revenue, our resources are provided for your benefit.
 
-At  we enter a new world like nothing any of us have ever seen before. Together, we really will be making history. We are proud to join all of our fellow Tronics in ushering the day forward!
+As we enter a new world like nothing any of us have ever seen before, together, we really will be making history. We are proud to join all of our fellow Tronics in ushering the day forward!
 
 http://www.communitynode.org
 
